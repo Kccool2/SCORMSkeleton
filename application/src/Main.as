@@ -31,8 +31,6 @@ import managers.soundalize.SoundManager;
 
 import preloader.PreloaderManager;
 
-import view.MaximizeButton;
-
 public class Main extends MovieClip {
     /*------------------------------------------------FORGET THIS VARS -----------------*/
     private static var _instance:Main = null;
@@ -150,7 +148,7 @@ public class Main extends MovieClip {
     }
 
     private function initializeBase():void {
-        ClientManager.addFullScreenButton(new MaximizeButton());
+      //  ClientManager.addFullScreenButton(new MaximizeButton());
 
         //STARTING THE GAME STRUCTURE
         _baseSprite = new Sprite();
