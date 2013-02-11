@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/application/libs/as3corelib.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/defaultLoader.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/greensock.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/mdm.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/MonsterDebugger.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/SCORMUtils.swc!/" />
+      <root url="jar://$PROJECT_DIR$/application/libs/Utils.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

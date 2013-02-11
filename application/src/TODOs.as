@@ -7,6 +7,7 @@
  */
 package {
 public class TODOs {
+
     public function TODOs() {
     }
 
@@ -21,5 +22,9 @@ public class TODOs {
     //todo: is scrom do debugger/ programar no html
     //todo: realtime console :time game, version
 
+    public static function teste():void{
+        trace('asdfadsfadsfa');
+
+    }
 }
 }

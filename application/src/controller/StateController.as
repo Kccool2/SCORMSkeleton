@@ -12,11 +12,16 @@ import com.greensock.loading.LoaderMax;
 import managers.DataManager;
 import managers.DebuggerManager;
 import managers.EventManager;
+import managers.SerializerManager;
+
+import model.ControleTelaVo;
+import model.SaveObject;
 
 public class StateController {
     private static var config:DataManager;
     private static var texts:DataManager;
-
+    private static var gameData:ControleTelaVo;
+    public static var save:SaveObject;
     public function StateController() {
         var _gameConfig:Object = JSON.decode(LoaderMax.getContent("_gameConfig"));
         config = new DataManager(_gameConfig, "ConfigMAnager");
@@ -24,9 +29,14 @@ public class StateController {
         texts = new DataManager(_gameText, "TextsMAnager");
 
         var _gameData:Object = JSON.decode(LoaderMax.getContent("_gameData"));
-        DebuggerManager.debug("game", _gameData);
+        gameData= new ControleTelaVo();
+        gameData.telas=_gameData["telas"];
 
+        reset();
         //  this.mode =  ConfigController.getConfig("mode");
+    }
+    public function reset():void{
+        save =  new SaveObject();
     }
 
     public static function getTest(id:String):String {
@@ -35,6 +45,13 @@ public class StateController {
 
     public static function getConfig(id:String):String {
         return config.getData(id);
+    }
+
+    public static function get titutloAtual():String{
+         return gameData.telas[save.telaAtual].titulo;
+    }
+    public static function get telaAtual():String{
+        return gameData.telas[save.telaAtual].tela;
     }
 
     public function initialize():void {

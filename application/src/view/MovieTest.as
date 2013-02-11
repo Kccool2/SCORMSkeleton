@@ -11,6 +11,8 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.events.MouseEvent;
 
+import managers.EventManager;
+
 public class MovieTest extends ViewElement {
     public var fundo:MovieClip;
     public var frente:MovieClip;
@@ -34,7 +36,7 @@ public class MovieTest extends ViewElement {
         fundo.removeEventListener(MouseEvent.MOUSE_DOWN, onClick);
     }
 
-    override public function animateIn(_onComplete:Function = null):void {
+    override public function animateIn():void {
 
         TweenMax.to(this, 0.4, {autoAlpha: 1});
     }

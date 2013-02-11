@@ -17,6 +17,7 @@ import flash.display.MovieClip;
 import flash.display.Sprite;
 import flash.display.Stage;
 import flash.events.Event;
+import flash.events.MouseEvent;
 import flash.system.Security;
 import flash.text.TextField;
 import flash.ui.ContextMenu;
@@ -31,11 +32,12 @@ import managers.soundalize.SoundManager;
 
 import preloader.PreloaderManager;
 
+import view.MaximizeButton;
+
 public class Main extends MovieClip {
     /*------------------------------------------------FORGET THIS VARS -----------------*/
     private static var _instance:Main = null;
     private static var _mainStage:Stage = null;
-    private var assetsManager:AssetsManager;
 
     //public var _gameController:GameController;
     private var _baseSprite:Sprite;
@@ -60,6 +62,8 @@ public class Main extends MovieClip {
         _mainStage = mainStage;
         _instance = this;
         addEventListener(Event.ADDED_TO_STAGE, init);
+
+
     }
 
     public static function get instance():Main {
@@ -84,7 +88,7 @@ public class Main extends MovieClip {
         Utils.initialize(_mainStage.stageWidth, _mainStage.stageHeight);
 
         //control the resize window game
-        ClientManager.initialize(mainStage,this);
+        ClientManager.initialize(mainStage, this);
 
         //identifying the Environment of the game (wem, offline, scorm....)
         EnvironmentManager.initialize(loaderInfo.url, serverTest);
@@ -93,11 +97,11 @@ public class Main extends MovieClip {
 
         //starting loaders
         if (hasSound) SoundManager.initialize();
-        assetsManager = new AssetsManager(showLoadError);
+        AssetsManager.initialize(showLoadError);
 
         if (hasCustomPreloader) {
             var path:String = computePath("data/preloader.swf");
-            assetsManager.loadSWFAsset(path, { name: "preloader", estimatedBytes: 4800, onComplete: onLoadPreloader });
+            AssetsManager.loadSWFAsset(path, { name: "preloader", estimatedBytes: 4800, onComplete: onLoadPreloader });
         } else {
             PreloaderManager.initialize(this.stage, null);
             PreloaderManager.setVisible(true);
@@ -111,16 +115,21 @@ public class Main extends MovieClip {
          trace("asdasdf");  */
     }
 
+    public static function teste():void {
+        trace("DEU CERTO!");
+    }
 
     private function onLoadPreloader(loaderEvent:LoaderEvent):void {
         PreloaderManager.initialize(this.stage, LoaderMax.getContent("preloader").rawContent["preLoader"]);
+
         PreloaderManager.setVisible(true);
+
         loadXMLAssets();
     }
 
     private function loadXMLAssets():void {
         var path:String = computePath("data/assets.xml");
-        assetsManager.loadXMLAssets(path, { name: "xmlAssets", onComplete:onLoadXMLAssets, estimatedBytes: 50000000 }, updatePreloaderLabel);
+        AssetsManager.loadXMLAssets(path, { name: "xmlAssets", onComplete: onLoadXMLAssets, estimatedBytes: 50000000 }, updatePreloaderLabel);
     }
 
     private function updatePreloaderLabel(percent:Number):void {
@@ -134,8 +143,9 @@ public class Main extends MovieClip {
         for (var i:int = 0; i < xmlAssets.child(0).children().length(); i++) {
             var xmlPropertyName:String = xmlAssets.child(0).children()[i].name();
             switch (xmlPropertyName) {
-                case "MP3Loader": {
-                    if(hasSound) {
+                case "MP3Loader":
+                {
+                    if (hasSound) {
                         var _name:String = String(xmlAssets.child(0).children()[i].@name);
                         SoundManager.addPreloadedSound(_name, LoaderMax.getContent(_name));
                     }
@@ -148,15 +158,14 @@ public class Main extends MovieClip {
     }
 
     private function initializeBase():void {
-      //  ClientManager.addFullScreenButton(new MaximizeButton());
+        ClientManager.addFullScreenButton(new MaximizeButton());
 
         //STARTING THE GAME STRUCTURE
         _baseSprite = new Sprite();
-        _baseSprite.graphics.beginFill(0xff0000);
-        _baseSprite.graphics.drawRect(0,0,Utils.gameWidth,Utils.gameHeight);
+        _baseSprite.graphics.beginFill(0x0, 0);
+        _baseSprite.graphics.drawRect(0, 0, Utils.gameWidth, Utils.gameHeight);
         _baseSprite.graphics.endFill();
         this.addChild(_baseSprite);
-
 
         //MapLayer
         _mapLayer = new MovieClip;
@@ -175,7 +184,6 @@ public class Main extends MovieClip {
         EventManager.addListener('dataLoaded', "dataLoaded", initializeGame);
         stateMachine.initialize();
     }
-
 
     private function initializeGame():void {
         EventManager.removeEventType('dataLoaded');
@@ -208,7 +216,6 @@ public class Main extends MovieClip {
          */
         return path;
     }
-
 
     public function showLoadError():void {
         var container:Sprite = new Sprite();

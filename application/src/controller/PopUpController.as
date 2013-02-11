@@ -4,6 +4,8 @@ import bases.LayerControllerBase;
 
 import flash.display.MovieClip;
 
+import view.Hud;
+
 /**
  * @author bona
  */

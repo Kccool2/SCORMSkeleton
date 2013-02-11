@@ -7,8 +7,11 @@
  */
 package {
 import flash.display.MovieClip;
+import flash.display.Stage;
+import flash.system.Security;
+import flash.text.TextField;
 
-[SWF(width="849", height="600", backgroundColor="#222222", frameRate="24", pageTitle="BLAHBLASDF")]
+[SWF(width="869", height="540", backgroundColor="#cccccc", frameRate="24", pageTitle="BLAHBLASDF")]
 public class Client extends MovieClip {
 
     public function Client() {
@@ -18,6 +21,8 @@ public class Client extends MovieClip {
         this.addChild(m);
 
     }
+
+
 
 }
 }
