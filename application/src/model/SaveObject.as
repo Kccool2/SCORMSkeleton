@@ -10,7 +10,8 @@ import com.greensock.plugins.EndVectorPlugin;
 
 public class SaveObject {
     public var telaAtual:int = 0;
-    public var frameAtual:String = "";
+    public var ultimaTela:int = 0;
+
     public function SaveObject() {
     }
 }

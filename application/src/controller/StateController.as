@@ -20,7 +20,7 @@ import model.SaveObject;
 public class StateController {
     private static var config:DataManager;
     private static var texts:DataManager;
-    private static var gameData:ControleTelaVo;
+    public static var gameData:ControleTelaVo;
     public static var save:SaveObject;
     public function StateController() {
         var _gameConfig:Object = JSON.decode(LoaderMax.getContent("_gameConfig"));
@@ -52,6 +52,9 @@ public class StateController {
     }
     public static function get telaAtual():String{
         return gameData.telas[save.telaAtual].tela;
+    }
+    public static function get qtyTelas():int{
+        return gameData.telas.length;
     }
 
     public function initialize():void {

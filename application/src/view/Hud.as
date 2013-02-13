@@ -24,22 +24,25 @@ public class Hud  extends BaseView{
     public var btnSound:MovieClip;
     public var content:MovieClip;
     public var txtTitle:TextField;
+    public var txtTelas:TextField;
 
     public var hasSound:Boolean= true;
+    public var isPlaying:Boolean= true;
 
     public var btns:Array = ['btnHome','btnPrev', 'btnNext', 'btnPlay','btnSound'];
 
     public function Hud() {
-        btnPlay.visible=false;
          btnSound.gotoAndStop(1);
     }
     override public function config(vo:*, onCompleteFn:Function = null, ...rest):void {
         super.config(vo, onCompleteFn, rest);
         this.visible=false;
         this.alpha = 0;
+        this.btnPlay.gotoAndStop(2);
         for (var i:int = 0; i < btns.length; i++) {
             ButtonManager.setButton("IndexBone."+btns[i],this[btns[i]],this['onClick_'+btns[i]],0.3)
         }
+        btnPlay.visible=false;
 
     }
 
@@ -69,7 +72,10 @@ public class Hud  extends BaseView{
         HudVo(this.configModel).clickNext();
     }
     private function onClick_btnPlay(mc:MovieClip):void {
-        HudVo(this.configModel).clickPlay();
+        isPlaying = !isPlaying;
+        btnPlay.gotoAndStop(isPlaying?2:1);
+
+        HudVo(this.configModel).clickPlay(isPlaying);
     }
     private function onClick_btnSound(mc:MovieClip):void {
         hasSound= !hasSound;

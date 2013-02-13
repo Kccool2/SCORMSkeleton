@@ -47,6 +47,7 @@ public class Main extends MovieClip {
     private var stateMachine:StateController;
     private var gameController:GameController;
 
+
     /*----------------------------PLEASE CONFIGURE THIS VARIABLES---------------------*/
     private var gameName:String = "Game Name";
     private var version:String = "1.0.0";
@@ -55,6 +56,7 @@ public class Main extends MovieClip {
     private var allowedDomain:String = "*";
     private var hasCustomPreloader:Boolean = true;
     private var hasSound:Boolean = true;
+    public static var DELAY_BUTTON:Number = 0.3;
 
     public function Main(mainStage:Stage):void {
         if (mainStage == null || undefined) throw new Error("It's impossible to instantiate the Main game over and null or undefined Stage object.");

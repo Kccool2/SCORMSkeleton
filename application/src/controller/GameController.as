@@ -8,17 +8,13 @@
 package controller {
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
-import com.greensock.loading.SWFLoader;
 
 import flash.display.MovieClip;
-
-import flash.display.MovieClip;
-import flash.events.MouseEvent;
 
 import managers.AssetsManager;
 import managers.ButtonManager;
+import managers.EventManager;
 import managers.LipSyncManager;
-
 import managers.TimeTickerManager;
 import managers.soundalize.SoundManager;
 
@@ -38,10 +34,11 @@ public class GameController {
     public static var ticker:TimeTickerManager;
 
     public static var hud:Hud;
+
     public static var currentContent:MovieClip;
     public static var currentLipSync:String = '';
     public static var btnsOnContent:Array = [];
-
+    public static var contentPlaying:Boolean = false;
     public function GameController(mapLayer:MovieClip, hudLayer:MovieClip, popupLayer:MovieClip) {
         ticker = new TimeTickerManager();
         ticker.timerStart();
@@ -61,7 +58,9 @@ public class GameController {
         hud.showHud();
         PreloaderManager.setVisible(false);
 
-        startPlay();
+       // startPlay();
+
+        //popUpController.question.showQuestion("alo teste",onClickQuestion)
         /*Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
          var m2:MovieTest = new MovieTest();
          var p:Point = ToolGame.calcQuadrantPos(m2, m2.fundo, 1, 1);
@@ -84,62 +83,118 @@ public class GameController {
         //PreloaderManager.setTextLabel("Aguarde, carregando SCORM...");
     }
 
-    public function clickSound(enable:Boolean):void {
+    public function onClickQuestion(option:Boolean):void {
+       trace('option onClickQuestion: ', option);
+        popUpController.alert.showAlert('adfadfad', onClickAlert)
+    }
+    public function onClickAlert(option:Boolean):void {
+        trace('option onClickAlert:  ', option);
+        popUpController.question.showQuestion("alo teste",onClickQuestion)
+    }
 
+    public function clickSound(enable:Boolean):void {
+        enable?SoundManager.unmuteAll():SoundManager.muteAll();
     }
 
     public function clickHome():void {
-
+       EventManager.dispatch(this,"PopUpController.ShowLista");
     }
 
     public function clickPrev():void {
-
+        if(StateController.save.telaAtual>0){
+            StateController.save.telaAtual--;
+            stopLipSync();
+            startPlay();
+        }
     }
 
     public function clickNext():void {
-        if (currentContent.currentFrame == currentContent.totalFrames) {
+
+        if(StateController.save.ultimaTela>StateController.save.telaAtual){
             StateController.save.telaAtual++;
+            stopLipSync();
             startPlay();
-        } else {
-          continuePlay();
+        }else{
+            if(!contentPlaying) {
+                if (currentContent.currentFrame == currentContent.totalFrames) {
+                    stopLipSync();
+                    walkToNextStep();
+                    startPlay();
+                } else {
+                    continuePlay();
+                }
+            }
         }
+    }
+    private function walkToNextStep():void{
+        StateController.save.telaAtual++;
+        if(StateController.qtyTelas== StateController.save.telaAtual)   StateController.save.telaAtual--;
+        if(StateController.save.ultimaTela< StateController.save.telaAtual)StateController.save.ultimaTela=StateController.save.telaAtual;
 
     }
 
-    public function clickPlay():void {
 
-        //  AssetsManager.
-        // var loader:SWFLoader = new SWFLoader('telas/'+StateController.telaAtual+ '.swf', {name:StateController.telaAtual,onComplete:completeHandler});
-        // loader.load();
+    public function clickPlay(isPlaying:Boolean):void {
+        //notImplemented
+
     }
 
     public function startPlay():void {
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
             AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, PreloaderManager.setVisible)
+        } else{
+            LoaderMax.getContent(StateController.telaAtual).rawContent["content"].gotoAndStop(1);
+            doPlay();
         }
     }
     public function continuePlay():void{
+
+        StateController.save.ultimaTela= StateController.save.telaAtual;
+        clearListenertnscontent();
         stopLipSync();
+        contentPlaying=true;
         currentContent.play();
     }
 
-    public function doPlay(event:LoaderEvent):void {
-      trace('REGISTERED', ButtonManager.regiteredButtons())
+    public function doPlay(event:LoaderEvent=null):void {
         clearListenertnscontent();
-        trace('CLEARED', ButtonManager.regiteredButtons())
-        stopLipSync();
+
+
         if (currentContent != null) {
+            contentPlaying=false;
+            currentContent.stop();
             hud.content.removeChild(currentContent);
             currentContent = null;
         }
-
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
         currentContent.x = 50;
         currentContent.y = -50;
-        hud.txtTitle.text = StateController.telaAtual;
         hud.content.addChild(currentContent);
+        hud.txtTitle.htmlText =  StateController.titutloAtual;
+        hud.txtTelas.htmlText =  StateController.telaAtual + ' - '+ (StateController.save.telaAtual+1).toString()+ '/'+ StateController.qtyTelas.toString();
+        contentPlaying=true;
         currentContent.play();
     }
+
+    public function clearListenertnscontent():void{
+        for (var i:int = 0; i < btnsOnContent.length; i++) {
+            var key:String = btnsOnContent[i];
+
+            ButtonManager.removeButton(key);
+        }
+        btnsOnContent=[];
+    }
+
+
+
+
+    public static function addButton(key:String ,btn:MovieClip,fn:Function):void{
+        if(btnsOnContent.indexOf(btnsOnContent.indexOf(key))==-1){
+            btnsOnContent.push(key);
+            ButtonManager.setButton(key, btn, fn, Main.DELAY_BUTTON);
+        }
+    }
+
 
     public static function startLipSync(mouth:MovieClip, sound:String):void {
 
@@ -148,8 +203,7 @@ public class GameController {
         SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3');
         SoundManager.play(sound);
     }
-
-    public function stopLipSync():void {
+    public  static  function stopLipSync():void {
         if (currentLipSync != '') {
             LipSyncManager.disableLipsync();
             SoundManager.stop(currentLipSync);
@@ -157,21 +211,18 @@ public class GameController {
         }
     }
 
-    public static function addButton(key:String ,btn:MovieClip,fn:Function):void{
-        if(btnsOnContent.indexOf(btnsOnContent.indexOf(key))==-1){
-            btnsOnContent.push(key);
-          ButtonManager.setButton(key, btn, fn, 0.2);
-        }
+    public static function stopCourse():void{
+        contentPlaying=false;
+        currentContent.stop();
+
+
+    }
+    public static function endCourse():void{
+
     }
 
-    public function clearListenertnscontent():void{
-        for (var i:int = 0; i < btnsOnContent.length; i++) {
-            var key:String = btnsOnContent[i];
 
-             ButtonManager.removeButton(key);
-        }
-        btnsOnContent=[];
-    }
+
 
 }
 }
