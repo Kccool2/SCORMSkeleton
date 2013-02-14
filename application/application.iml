@@ -19,6 +19,20 @@
         <packaging-android />
         <packaging-ios />
       </configuration>
+      <configuration name="SWC" pure-as="true" output-type="Library" output-file="SWC.swc" output-folder="$MODULE_DIR$/libs">
+        <dependencies target-player="10.1">
+          <entries>
+            <entry library-name="libs" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.1.0.16076" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
     </configurations>
     <compiler-options />
   </component>

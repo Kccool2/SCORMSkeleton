@@ -58,7 +58,7 @@ public class GameController {
         hud.showHud();
         PreloaderManager.setVisible(false);
 
-       // startPlay();
+         startPlay();
 
         //popUpController.question.showQuestion("alo teste",onClickQuestion)
         /*Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
@@ -209,6 +209,13 @@ public class GameController {
             SoundManager.stop(currentLipSync);
             currentLipSync = '';
         }
+    }
+
+    public static function continueAnimation():void{
+        stopLipSync();
+        currentContent.play();
+
+
     }
 
     public static function stopCourse():void{

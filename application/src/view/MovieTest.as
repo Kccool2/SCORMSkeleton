@@ -36,10 +36,7 @@ public class MovieTest extends ViewElement {
         fundo.removeEventListener(MouseEvent.MOUSE_DOWN, onClick);
     }
 
-    override public function animateIn():void {
 
-        TweenMax.to(this, 0.4, {autoAlpha: 1});
-    }
 
     override public function animateOut(_onComplete:Function = null):void {
         TweenMax.to(this, 0.4, {autoAlpha: 1, onComplete: _onComplete});
