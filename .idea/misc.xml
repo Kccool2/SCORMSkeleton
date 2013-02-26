@@ -41,10 +41,10 @@
       </regional-settings>
       <environment>
         <environment-types>
-          <environment-type name="Development" description="Development environment" color="-2430209" />
-          <environment-type name="Test" description="Testing environment" color="-2621494" />
-          <environment-type name="Production" description="Productive environment" color="-11574" />
-          <environment-type name="Other" description="" color="-1576" />
+          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12234147" />
+          <environment-type id="test" name="Test" description="Testing environment" color="-2621494/-2621494" />
+          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10730428" />
+          <environment-type id="other" name="Other" description="" color="-1576/-11250621" />
         </environment-types>
         <visibility-settings>
           <connection-tabs value="true" />
@@ -353,6 +353,9 @@
         <create-ddl-files value="false" />
       </general>
     </ddl-file-settings>
+  </component>
+  <component name="EncodingComponent">
+    <option name="projectEncoding" />
   </component>
   <component name="IdProvider" IDEtalkID="B0FA9531526DAC7ECF34F78C1B9563CB" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="flex_sdk_4.1.0.16076" project-jdk-type="Flex SDK Type (new)">

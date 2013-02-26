@@ -10,6 +10,7 @@ import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
 import flash.display.MovieClip;
+import flash.events.KeyboardEvent;
 
 import managers.AssetsManager;
 import managers.ButtonManager;
@@ -45,6 +46,7 @@ public class GameController {
         mapController = new MapController(mapLayer);
         hudController = new HudController(hudLayer);
         popUpController = new PopUpController(popupLayer);
+        Main.mainStage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
     }
 
     public function initialize():void {
@@ -58,7 +60,7 @@ public class GameController {
         hud.showHud();
         PreloaderManager.setVisible(false);
 
-         startPlay();
+        startPlay();
 
         //popUpController.question.showQuestion("alo teste",onClickQuestion)
         /*Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
@@ -84,7 +86,7 @@ public class GameController {
     }
 
     public function onClickQuestion(option:Boolean):void {
-       trace('option onClickQuestion: ', option);
+        trace('option onClickQuestion: ', option);
         popUpController.alert.showAlert('adfadfad', onClickAlert)
     }
     public function onClickAlert(option:Boolean):void {
@@ -97,7 +99,7 @@ public class GameController {
     }
 
     public function clickHome():void {
-       EventManager.dispatch(this,"PopUpController.ShowLista");
+        EventManager.dispatch(this,"PopUpController.ShowLista");
     }
 
     public function clickPrev():void {
@@ -111,9 +113,19 @@ public class GameController {
     public function clickNext():void {
 
         if(StateController.save.ultimaTela>StateController.save.telaAtual){
-            StateController.save.telaAtual++;
-            stopLipSync();
-            startPlay();
+
+            if (currentContent.currentFrame == currentContent.totalFrames) {
+                StateController.save.telaAtual++;
+                stopLipSync();
+                startPlay();
+            }
+            else{
+                if(!contentPlaying) {
+                    continuePlay();
+                }
+            }
+
+
         }else{
             if(!contentPlaying) {
                 if (currentContent.currentFrame == currentContent.totalFrames) {
@@ -151,15 +163,11 @@ public class GameController {
 
         StateController.save.ultimaTela= StateController.save.telaAtual;
         clearListenertnscontent();
-        stopLipSync();
-        contentPlaying=true;
-        currentContent.play();
+        continueAnimation();
     }
 
     public function doPlay(event:LoaderEvent=null):void {
         clearListenertnscontent();
-
-
         if (currentContent != null) {
             contentPlaying=false;
             currentContent.stop();
@@ -212,6 +220,7 @@ public class GameController {
     }
 
     public static function continueAnimation():void{
+        contentPlaying=true;
         stopLipSync();
         currentContent.play();
 
@@ -224,12 +233,23 @@ public class GameController {
 
 
     }
-    public static function endCourse():void{
+    public static function finalTela():void{
+
+       ButtonManager.addOverEffect(hud.btnNext);
+
+
+    }
+    public static function finalCurso():void{
 
     }
 
+    private function onKeyDown(event:KeyboardEvent):void {
+        if(event.ctrlKey && event.altKey){
 
-
-
+            stopLipSync();
+            walkToNextStep();
+            startPlay();
+        }
+    }
 }
 }
