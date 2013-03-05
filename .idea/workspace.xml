@@ -2,225 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\adlcp_rootv1p2.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\catchHTML.zip" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\ims_xml.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\imscp_rootv1p1p2.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\imsmanifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\imsmd_rootv1p2p1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\packagemetadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\artwork\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\artwork\birdsprite.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\artwork\net.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\catch.an" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\catch_edge.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\catch_edgeActions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\catch_edgePreload.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\edge_includes\edge.1.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\edge_includes\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\edge_includes\jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\edge_includes\json2_min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\Poster.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\birdsprite.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\cracidaes.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\loader-bar.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\mountains.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\mountains.svg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\splash_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\splash_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\timer.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\images\title.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\scoGame\main.html" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\apiwrapper.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\auxfn.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\classyJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\queryobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\scofunctions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML2\shared\swfobject_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\adlcp_rootv1p2.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\ims_xml.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\imscp_rootv1p1p2.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\imsmanifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\imsmd_rootv1p2p1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\packagemetadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\css\designer.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_it\MinionPro-It.ttf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_it\MinionPro-It.woff" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_it\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_reg\minionpro-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_reg\minionpro-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_reg\minionpro-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_reg\minionpro-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\fonts\minionpro_reg\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\arrow-header.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\bubble-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\fma-edge.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\latest-news.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\pluralist.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\sign-up.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\img\video-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\Coupon_Banner.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\Ease.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\MovieClip.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\Timeline.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\assets\js\easel.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\design.html" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\edge_includes\edge.1.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\edge_includes\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\edge_includes\jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\edge_includes\json2_min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\Poster.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\Poster2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\btn_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\btn_arrowOver.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\bubble-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\downlevel_poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\loader-bar.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\loader_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\loader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_city.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_subHeader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_subHeader_box2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_taxi.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel1_taxi_black.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_bench_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_books.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_bowl_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_fabric.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_guide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_measure_tape.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_needles.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_paper_fabric_swatch.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_pencil_sketch.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_scissor_blk_blade1.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_scissor_blk_blade2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_sketch_blue_dress.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_sketch_cotton.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_sketch_girl.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_sketch_orange_shirt.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_spool.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_thread_rows.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel2_thread_spools.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_description_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_description_box2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_infoBox.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_redPanel.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_shirt1.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_shirt2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_shirt3.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_shirt4.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel3_subHeader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel4_alice.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel4_clothesRack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel4_diamond_flora.svg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\panel4_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\pluralist.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\sign-up.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\images\video-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\main.html" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\edge_includes\edge.1.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\edge_includes\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\edge_includes\jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\edge_includes\json2_min.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\Poster.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\Poster2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\btn_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\btn_arrowOver.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\bubble-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\downlevel_poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\loader-bar.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\loader_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\loader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_city.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_subHeader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_subHeader_box2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_taxi.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel1_taxi_black.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_bench_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_books.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_bowl_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_fabric.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_guide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_measure_tape.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_needles.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_paper_fabric_swatch.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_pencil_sketch.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_scissor_blk_blade1.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_scissor_blk_blade2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_sketch_blue_dress.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_sketch_cotton.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_sketch_girl.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_sketch_orange_shirt.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_spool.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_thread_rows.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel2_thread_spools.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_description_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_description_box2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_infoBox.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_redPanel.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_shirt1.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_shirt2.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_shirt3.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_shirt4.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel3_subHeader_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel4_alice.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel4_clothesRack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel4_diamond_flora.svg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\panel4_header_box.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\pluralist.gif" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\sign-up.png" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\images\video-placeholder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\timeline_edge.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\timeline_edgeActions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\publish\web\timeline_edgePreload.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\timeline.an" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\timeline_edge.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\timeline_edgeActions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\scoGame\timeline_edgePreload.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\apiwrapper.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\auxfn.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\classyJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\queryobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\scofunctions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\binHTML\shared\swfobject_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M00_T03_F1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala3.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala4.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala5.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala6.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\fala7.mp3" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\base.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T01.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T02.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T04.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T05.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T06.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T07.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T09.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50007_A1.1_M01_T10.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T01.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T02.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T02a.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T04.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T05.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T06.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T07.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T08.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T09.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T10.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T11.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T12.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T13.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T14.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T15.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T16.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_GM50007_A1.1_M01_T17.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_index.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\fla\telas\paqueta_template.fla" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SWC.swc" afterPath="$PROJECT_DIR$/application/libs/SWC.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/hud.fla" afterPath="$PROJECT_DIR$/application/fla/hud.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Hud.as" afterPath="$PROJECT_DIR$/application/src/view/Hud.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1361833239169" ignored="false" />
-    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360876383806" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362511365294" ignored="false" />
+    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362519849013" ignored="false" />
     <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360715006664" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360364477011" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
-    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1361837693656" ignored="false" />
+    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362519471755" ignored="false" />
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
     <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360715022646" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
     <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360590248695" ignored="false" />
     <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360522023341" ignored="false" />
-    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360688562057" ignored="false" />
+    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362519424364" ignored="false" />
     <file path="/BaseView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546377391" ignored="false" />
     <file path="/PopUpController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720540564" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360550541571" ignored="false" />
@@ -230,8 +72,8 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360548229304" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360550498346" ignored="false" />
     <file path="/ControleTelaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360551056952" ignored="false" />
-    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720267857" ignored="false" />
-    <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360601881991" ignored="false" />
+    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512378454" ignored="false" />
+    <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362517497174" ignored="false" />
     <file path="/Client.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360864017244" ignored="false" />
     <file path="/TODOs.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360553345350" ignored="false" />
     <file path="/SaveObject.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360686568232" ignored="false" />
@@ -248,6 +90,17 @@
     <file path="/ItemLista.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720184996" ignored="false" />
     <file path="/PlayerCriarTelas.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360863202105" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_php/GM5_goldenlearn/www/ead/theme/astral/layout/general.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1361148316399" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/quiz/Quiz.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362510495632" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512909392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512392146" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512823126" ignored="false" />
+    <file path="/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512819584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/model/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502120677" ignored="false" />
+    <file path="/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502119066" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Agenda.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362510500189" ignored="false" />
+    <file path="/Agenda.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362507911096" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/quiz/QuizOption.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362510495632" ignored="false" />
+    <file path="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362518892427" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,26 +159,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameController.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="12" selection-start="7990" selection-end="7990" vertical-scroll-proportion="0.7934272">
+            <state line="236" column="80" selection-start="7825" selection-end="7825" vertical-scroll-proportion="-69.07692">
               <folding>
-                <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="n#!!block;n#clickSound#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="n#!!block;n#clickHome#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="n#!!block;n#clickPrev#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="e#3705#3814#0" expanded="false" />
-                <element signature="e#5148#5329#0" expanded="false" />
-                <element signature="e#5334#5465#0" expanded="false" />
-                <element signature="n#!!block;n#clearListenertnscontent#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="e#6559#6663#0" expanded="false" />
-                <element signature="n#!!block;n#addButton#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="e#6847#6965#0" expanded="false" />
-                <element signature="n#!!block;n#startLipSync#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="n#!!block;n#stopLipSync#0;n#GameController#0;n#controller#0" expanded="false" />
-                <element signature="e#7327#7463#0" expanded="false" />
+                <element signature="e#5147#5328#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hud.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="134" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.034168564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_gameData.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="64" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.0769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hud.swf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="117" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -376,9 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/src/model/SaveObject.as" />
-        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
-        <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
         <option value="$PROJECT_DIR$/application/src/view/BtnPopup.as" />
         <option value="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as" />
         <option value="$PROJECT_DIR$/application/src/view/Question.as" />
@@ -391,6 +255,9 @@
         <option value="$PROJECT_DIR$/PlayerCriarTelas/src/PlayerCriarTelas.as" />
         <option value="$PROJECT_DIR$/application/src/view/MovieTest.as" />
         <option value="$PROJECT_DIR$/application/src/Client.as" />
+        <option value="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" />
+        <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
+        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
       </list>
     </option>
@@ -450,6 +317,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,41 +336,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCORMSkeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCORMSkeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,9 +433,6 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\src\view" />
-    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="" />
       <recent name="view" />
@@ -608,12 +440,12 @@
       <recent name="scormViewBones" />
       <recent name="scormBones" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\data\assets" />
+      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\src\view" />
+    </key>
   </component>
   <component name="RunManager" selected="Flash App.application">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -653,9 +485,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -796,7 +625,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -818,9 +647,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21504803" sideWeight="0.5456498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -891,7 +720,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -899,36 +728,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/BtnPopup.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="38" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="26" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#170#200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/bases/LayerControllerBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="732" selection-end="732" vertical-scroll-proportion="0.3327674" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-0.083333336" />
@@ -970,9 +769,9 @@
         <state line="18" column="203" selection-start="359" selection-end="359" vertical-scroll-proportion="0.20146905" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
+    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+        <state line="60" column="4" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -984,32 +783,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
+    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="4" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
+        <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="151" selection-start="5320" selection-end="5320" vertical-scroll-proportion="1.0022779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo_intro/bin/scoGame/data/_gameData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="74" selection-start="145" selection-end="145" vertical-scroll-proportion="0.12756264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="117" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="64" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.0769231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="12" selection-start="7990" selection-end="7990" vertical-scroll-proportion="0.7934272">
+        <state line="236" column="80" selection-start="7825" selection-end="7825" vertical-scroll-proportion="-69.07692">
           <folding>
-            <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="n#!!block;n#clickSound#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="n#!!block;n#clickHome#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="n#!!block;n#clickPrev#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="e#3705#3814#0" expanded="false" />
-            <element signature="e#5148#5329#0" expanded="false" />
-            <element signature="e#5334#5465#0" expanded="false" />
-            <element signature="n#!!block;n#clearListenertnscontent#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="e#6559#6663#0" expanded="false" />
-            <element signature="n#!!block;n#addButton#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="e#6847#6965#0" expanded="false" />
-            <element signature="n#!!block;n#startLipSync#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="n#!!block;n#stopLipSync#0;n#GameController#0;n#controller#0" expanded="false" />
-            <element signature="e#7327#7463#0" expanded="false" />
+            <element signature="e#5147#5328#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="134" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.034168564">
+          <folding />
         </state>
       </provider>
     </entry>

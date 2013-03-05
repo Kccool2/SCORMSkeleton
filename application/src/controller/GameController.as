@@ -145,7 +145,6 @@ public class GameController {
 
     }
 
-
     public function clickPlay(isPlaying:Boolean):void {
         //notImplemented
 
@@ -175,13 +174,14 @@ public class GameController {
             currentContent = null;
         }
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
-        currentContent.x = 50;
-        currentContent.y = -50;
+
         hud.content.addChild(currentContent);
         hud.txtTitle.htmlText =  StateController.titutloAtual;
         hud.txtTelas.htmlText =  StateController.telaAtual + ' - '+ (StateController.save.telaAtual+1).toString()+ '/'+ StateController.qtyTelas.toString();
         contentPlaying=true;
         currentContent.play();
+        hud.setButtonsEnabled(false);
+
     }
 
     public function clearListenertnscontent():void{
@@ -223,24 +223,24 @@ public class GameController {
         contentPlaying=true;
         stopLipSync();
         currentContent.play();
-
+        hud.setButtonsEnabled(false);
 
     }
 
     public static function stopCourse():void{
         contentPlaying=false;
         currentContent.stop();
-
+        hud.setButtonsEnabled(true);
 
     }
     public static function finalTela():void{
 
        ButtonManager.addOverEffect(hud.btnNext);
-
+        hud.setButtonsEnabled(true);
 
     }
     public static function finalCurso():void{
-
+        hud.setButtonsEnabled(false);
     }
 
     private function onKeyDown(event:KeyboardEvent):void {

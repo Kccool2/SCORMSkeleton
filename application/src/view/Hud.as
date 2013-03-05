@@ -52,6 +52,12 @@ public class Hud  extends BaseView{
         }
     }
 
+    public function setButtonsEnabled(enabled:Boolean = true):void{
+        for (var i:int = 0; i < btns.length; i++) {
+            ButtonManager.setEnabled(enabled,"IndexBone."+btns[i])
+        }
+    }
+
 
     public function showHud(_onComplete:Function = null):void {
         TweenMax.to(this, 0.4, {autoAlpha: 1, onComplete: _onComplete});
