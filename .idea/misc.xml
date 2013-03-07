@@ -358,7 +358,7 @@
     <option name="projectEncoding" />
   </component>
   <component name="IdProvider" IDEtalkID="B0FA9531526DAC7ECF34F78C1B9563CB" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="flex_sdk_4.1.0.16076" project-jdk-type="Flex SDK Type (new)">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="flex_sdk_4.1.0.16076A" project-jdk-type="Flex SDK Type (new)">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VssConfiguration">

@@ -6,7 +6,7 @@
   <component name="FlexBuildConfigurationManager" active="application">
     <configurations>
       <configuration name="application" pure-as="true" main-class="Client" output-file="main.swf" output-folder="$MODULE_DIR$/bin/scoGame">
-        <dependencies target-player="10.0">
+        <dependencies target-player="10.1">
           <entries>
             <entry library-name="libs" library-level="project">
               <dependency linkage="Merged" />
