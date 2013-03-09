@@ -6,10 +6,12 @@
  * To change this template use File | Settings | File Templates.
  */
 package controller {
+import com.greensock.TweenMax;
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
 import flash.display.MovieClip;
+import flash.events.Event;
 import flash.events.KeyboardEvent;
 
 import managers.AssetsManager;
@@ -24,6 +26,7 @@ import model.HudVo;
 import preloader.PreloaderManager;
 
 import view.Hud;
+import view.mapaCurso.MapaCurso;
 
 public class GameController {
     public var mapController:MapController;
@@ -60,7 +63,9 @@ public class GameController {
         hud = Hud(hudController.addViewScheme(Hud, o, "test", null, 0, 0, "PopUpController.Hud"));
         hud.showHud();
         PreloaderManager.setVisible(false);
+        StateController.save.ultimaTela=12;
 
+        EventManager.addListener("MapaCurso.onItemClick","MapaCurso.onItemClick",onMapaCursoClick);
         startPlay();
 
         //popUpController.question.showQuestion("alo teste",onClickQuestion)
@@ -86,6 +91,14 @@ public class GameController {
         //PreloaderManager.setTextLabel("Aguarde, carregando SCORM...");
     }
 
+    public function onMapaCursoClick(bt:MovieClip):void{
+
+        StateController.save.telaAtual=bt.indice;
+        popUpController.mapa.close();
+        TweenMax.delayedCall(.5,startPlay);
+
+    }
+
     public function onClickQuestion(option:Boolean):void {
         trace('option onClickQuestion: ', option);
         popUpController.alert.showAlert('adfadfad', onClickAlert)
@@ -101,7 +114,8 @@ public class GameController {
     }
 
     public function clickHome():void {
-        EventManager.dispatch(this, "PopUpController.ShowLista");
+        forceSTOP();
+        EventManager.dispatch(this, "PopUpController.showMapa");
     }
 
     public function clickPrev():void {
@@ -140,6 +154,12 @@ public class GameController {
         }
     }
 
+    public function forceSTOP():void{
+        contentPlaying = false;
+        stopLipSync();
+        clearListenertnscontent();
+    }
+
     private function walkToNextStep():void {
         StateController.save.telaAtual++;
         if (StateController.qtyTelas == StateController.save.telaAtual)   StateController.save.telaAtual--;
@@ -168,6 +188,8 @@ public class GameController {
         continueAnimation();
     }
 
+
+
     public function doPlay(event:LoaderEvent = null):void {
         clearListenertnscontent();
         if (currentContent != null) {
@@ -191,7 +213,6 @@ public class GameController {
     public function clearListenertnscontent():void {
         for (var i:int = 0; i < btnsOnContent.length; i++) {
             var key:String = btnsOnContent[i];
-
             ButtonManager.removeButton(key);
         }
         btnsOnContent = [];

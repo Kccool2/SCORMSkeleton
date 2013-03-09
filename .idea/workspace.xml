@@ -1,126 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T11.swf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SWC.swc" afterPath="$PROJECT_DIR$/application/libs/SWC.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T02.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T02.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T02.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T02.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T01.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T01.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T01.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T02.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T02.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T02.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T02.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T03.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T03.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T03.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T03.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T04.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T04.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T04.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T04.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T05.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T05.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T05.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T05.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T07.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T07.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T07.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T07.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T08.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T08.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T08.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T08.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Alert.as" afterPath="$PROJECT_DIR$/application/src/view/Alert.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BaseView.as" afterPath="$PROJECT_DIR$/application/src/view/BaseView.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BtnPopup.as" afterPath="$PROJECT_DIR$/application/src/view/BtnPopup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Client.as" afterPath="$PROJECT_DIR$/application/src/Client.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/ControleTelaVo.as" afterPath="$PROJECT_DIR$/application/src/model/ControleTelaVo.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Hud.as" afterPath="$PROJECT_DIR$/application/src/view/Hud.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/HudController.as" afterPath="$PROJECT_DIR$/application/src/controller/HudController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/HudVo.as" afterPath="$PROJECT_DIR$/application/src/model/HudVo.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/ItemLista.as" afterPath="$PROJECT_DIR$/application/src/view/ItemLista.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/ListaCurso.as" afterPath="$PROJECT_DIR$/application/src/view/ListaCurso.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Main.as" afterPath="$PROJECT_DIR$/application/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/MapController.as" afterPath="$PROJECT_DIR$/application/src/controller/MapController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" afterPath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MovieTest.as" afterPath="$PROJECT_DIR$/application/src/view/MovieTest.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/MovieTestVo.as" afterPath="$PROJECT_DIR$/application/src/model/MovieTestVo.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/PopUpController.as" afterPath="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Question.as" afterPath="$PROJECT_DIR$/application/src/view/Question.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/SaveObject.as" afterPath="$PROJECT_DIR$/application/src/model/SaveObject.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/TODOs.as" afterPath="$PROJECT_DIR$/application/src/TODOs.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameConfig.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameConfig.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameText.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameText.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_scormObject.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_scormObject.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/adlcp_rootv1p2.xsd" afterPath="$PROJECT_DIR$/application/bin/adlcp_rootv1p2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/adlcp_rootv1p2.xsd" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/adlcp_rootv1p2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/apiwrapper.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/apiwrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/apiwrapper.js" afterPath="$PROJECT_DIR$/application/bin/shared/apiwrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/auxfn.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/auxfn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/auxfn.js" afterPath="$PROJECT_DIR$/application/bin/shared/auxfn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/classyJSON.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/classyJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/classyJSON.js" afterPath="$PROJECT_DIR$/application/bin/shared/classyJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/crossdomain.xml" afterPath="$PROJECT_DIR$/application/bin/scoGame/crossdomain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/ims_xml.xsd" afterPath="$PROJECT_DIR$/application/bin/ims_xml.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/ims_xml.xsd" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/ims_xml.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/imscp_rootv1p1p2.xsd" afterPath="$PROJECT_DIR$/application/bin/imscp_rootv1p1p2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/imscp_rootv1p1p2.xsd" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/imscp_rootv1p1p2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/imsmanifest.xml" afterPath="$PROJECT_DIR$/application/bin/imsmanifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/imsmanifest.xml" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/imsmanifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/imsmd_rootv1p2p1.xsd" afterPath="$PROJECT_DIR$/application/bin/imsmd_rootv1p2p1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/imsmd_rootv1p2p1.xsd" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/imsmd_rootv1p2p1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.php" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/js/jquery-1.7.js" afterPath="$PROJECT_DIR$/application/bin/scoGame/js/jquery-1.7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/jquery.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/jquery.js" afterPath="$PROJECT_DIR$/application/bin/shared/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/scoGame/main.html" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/scoGame/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/output.iml" afterPath="$PROJECT_DIR$/application/output.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/packagemetadata.xml" afterPath="$PROJECT_DIR$/application/bin/packagemetadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/packagemetadata.xml" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/packagemetadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/queryobject.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/queryobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/queryobject.js" afterPath="$PROJECT_DIR$/application/bin/shared/queryobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/scofunctions.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/scofunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/scofunctions.js" afterPath="$PROJECT_DIR$/application/bin/shared/scofunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/scoGame/swfobject.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/scoGame/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/swfobject.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/js/swfobject.js" afterPath="$PROJECT_DIR$/application/bin/scoGame/js/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/swfobject.js" afterPath="$PROJECT_DIR$/application/bin/shared/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/swfobject_modified.js" afterPath="$PROJECT_DIR$/application/binHTMLLipSiync/shared/swfobject_modified.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/shared/swfobject_modified.js" afterPath="$PROJECT_DIR$/application/bin/shared/swfobject_modified.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="" />
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362665298079" ignored="false" />
-    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362594764335" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362806074711" ignored="false" />
+    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362775569822" ignored="false" />
     <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360715006664" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360364477011" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
-    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362667280911" ignored="false" />
+    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362791615395" ignored="false" />
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
     <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603602960" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
-    <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360590248695" ignored="false" />
+    <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362774271746" ignored="false" />
     <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
-    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360522023341" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362519424364" ignored="false" />
     <file path="/BaseView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546377391" ignored="false" />
-    <file path="/PopUpController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720540564" ignored="false" />
-    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360550541571" ignored="false" />
+    <file path="/PopUpController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790523279" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786920772" ignored="false" />
     <file path="/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360548188886" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602420694" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/Utils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360548229304" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360548229304" ignored="false" />
-    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360550498346" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="/ControleTelaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360551056952" ignored="false" />
-    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362602571583" ignored="false" />
-    <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362517497174" ignored="false" />
+    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362787806915" ignored="false" />
+    <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362783878638" ignored="false" />
     <file path="/Client.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362583570306" ignored="false" />
     <file path="/TODOs.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360553345350" ignored="false" />
     <file path="/SaveObject.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360686568232" ignored="false" />
@@ -128,20 +36,19 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/LipSyncManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360611916011" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360615929942" ignored="false" />
-    <file path="/ButtonManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360615874383" ignored="false" />
     <file path="/Conteudo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360683949721" ignored="false" />
     <file path="/Question.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360712624745" ignored="false" />
     <file path="/BtnPopup.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360708518917" ignored="false" />
-    <file path="/Alert.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360712765783" ignored="false" />
+    <file path="/Alert.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790455966" ignored="false" />
     <file path="/ListaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720410536" ignored="false" />
     <file path="/ItemLista.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720184996" ignored="false" />
     <file path="/PlayerCriarTelas.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360863202105" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_php/GM5_goldenlearn/www/ead/theme/astral/layout/general.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1361148316399" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/quiz/Quiz.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362510495632" ignored="false" />
-    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362668106871" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772660800" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512392146" ignored="false" />
-    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512823126" ignored="false" />
-    <file path="/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362512819584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362769110128" ignored="false" />
+    <file path="/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362769109336" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/model/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502120677" ignored="false" />
     <file path="/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502119066" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Agenda.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362667578195" ignored="false" />
@@ -160,6 +67,20 @@
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/model/Fechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037544" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/data/main.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037545" ignored="false" />
     <file path="/InteracaoFechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603255513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772523976" ignored="false" />
+    <file path="/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772498047" ignored="false" />
+    <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362791586598" ignored="false" />
+    <file path="/MapaItemPrincipal.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362788075198" ignored="false" />
+    <file path="/MapaItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790135037" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/bases/LayerControllerBase.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879891" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/DataManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/view/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/SerializerManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/IView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
+    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362787689351" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,8 +142,10 @@
       <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="36" selection-start="8077" selection-end="8086" vertical-scroll-proportion="0.59908885">
-              <folding />
+            <state line="63" column="43" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.21960784">
+              <folding>
+                <element signature="e#174#204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,16 +153,16 @@
       <file leaf-file-name="StateController.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+            <state line="43" column="55" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaveObject.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/model/SaveObject.as">
+      <file leaf-file-name="PopUpController.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+            <state line="34" column="85" selection-start="955" selection-end="979" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,34 +171,43 @@
       <file leaf-file-name="Hud.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="134" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
+            <state line="70" column="37" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/Main.as">
+      <file leaf-file-name="Alert.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="71" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0">
+            <state line="21" column="44" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/Client.as">
+      <file leaf-file-name="MapaCurso.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+            <state line="43" column="10" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieTest.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
+      <file leaf-file-name="MapaItemPrincipal.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+            <state line="20" column="38" selection-start="499" selection-end="531" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapaItem.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="52" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -300,21 +232,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as" />
-        <option value="$PROJECT_DIR$/application/src/view/Question.as" />
-        <option value="$PROJECT_DIR$/application/src/view/Alert.as" />
-        <option value="$PROJECT_DIR$/application/src/Main.as" />
-        <option value="$PROJECT_DIR$/application/src/view/ItemLista.as" />
-        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
-        <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
         <option value="$PROJECT_DIR$/application/src/view/ListaCurso.as" />
         <option value="$PROJECT_DIR$/PlayerCriarTelas/src/PlayerCriarTelas.as" />
         <option value="$PROJECT_DIR$/application/src/view/MovieTest.as" />
         <option value="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" />
-        <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
         <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/index.html" />
         <option value="$PROJECT_DIR$/application/src/Client.as" />
+        <option value="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" />
+        <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
+        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
+        <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
+        <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
+        <option value="$PROJECT_DIR$/application/src/view/Alert.as" />
+        <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
+        <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
       </list>
     </option>
@@ -323,8 +255,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -373,6 +305,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,52 +315,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCORMSkeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCORMSkeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCORMSkeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,16 +414,17 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\data\assets" />
-      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\src\view" />
-    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="view.mapaCurso" />
       <recent name="" />
       <recent name="view" />
       <recent name="model" />
       <recent name="scormViewBones" />
-      <recent name="scormBones" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\libs" />
+      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\data\assets" />
+      <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\src\view" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.application">
@@ -716,8 +607,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -725,30 +616,30 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31006494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30905077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18463181" sideWeight="0.54646015" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18437026" sideWeight="0.6909492" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45353982" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -811,7 +702,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/application/src/view/Alert.as</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -819,111 +717,111 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="4" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="4" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="790" selection-end="806" vertical-scroll-proportion="0.5382003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Question.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.3327674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/ListaCurso.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="60" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="134" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/model/SaveObject.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="52" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/application/libs/SWC.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1118" column="14" selection-start="50304" selection-end="50304" vertical-scroll-proportion="0.14797688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/assets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="84" selection-start="802" selection-end="802" vertical-scroll-proportion="0.21867882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+        <state line="43" column="55" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
+    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+        <state line="20" column="38" selection-start="499" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
+    <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+        <state line="21" column="44" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
+    <entry file="file://$PROJECT_DIR$/application/src/model/HudVo.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="71" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0">
+        <state line="10" column="15" selection-start="243" selection-end="243" vertical-scroll-proportion="0.10702341">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="85" selection-start="955" selection-end="979" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="52" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="37" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="10" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="85" selection-start="280" selection-end="280" vertical-scroll-proportion="0.08788598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="36" selection-start="8077" selection-end="8086" vertical-scroll-proportion="0.59908885">
-          <folding />
+        <state line="63" column="43" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.21960784">
+          <folding>
+            <element signature="e#174#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

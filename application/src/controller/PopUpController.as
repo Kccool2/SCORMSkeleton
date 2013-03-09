@@ -11,6 +11,7 @@ import view.Alert;
 import view.Hud;
 import view.ListaCurso;
 import view.Question;
+import view.mapaCurso.MapaCurso;
 
 /**
  * @author bona
@@ -19,7 +20,7 @@ import view.Question;
 public class PopUpController extends LayerControllerBase {
     public var question:Question;
     public var alert:Alert;
-    public  var lista:ListaCurso;
+    public  var mapa:MapaCurso;
     public function PopUpController(inPlaceHolder:MovieClip) {
         super(inPlaceHolder);
         question= new Question();
@@ -29,21 +30,12 @@ public class PopUpController extends LayerControllerBase {
         alert= new Alert();
         alert.initialize();
         this.addChildOnPlaceHolderPos(alert,"PopUpController.alert",0,0);
-
-
-        EventManager.addListener('PopUpController.ShowLista','PopUpController.ShowLista',showLista);
+        this.mapa = new MapaCurso();
+        this.addChildOnPlaceHolderPos(mapa,"PopUpController.mapa",0,0);
+        EventManager.addListener('PopUpController.showMapa','PopUpController.showMapa',showMapa);
     }
-    public function showLista():void{
-        if(lista ==null){
-            lista =  new ListaCurso();
-
-
-            lista.inicialize();
-
-            this.addChildOnPlaceHolderPos(lista,"PopUpController.lista",0,0);
-
-        }
-        lista.show()
+    public function showMapa():void{
+        mapa.show()
     }
 
 }

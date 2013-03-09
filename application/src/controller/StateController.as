@@ -24,9 +24,9 @@ public class StateController {
     public static var save:SaveObject;
     public function StateController() {
         var _gameConfig:Object = JSON.decode(LoaderMax.getContent("_gameConfig"));
-        config = new DataManager(_gameConfig, "ConfigMAnager");
+        config = new DataManager(_gameConfig, "ConfigMAnager",false);
         var _gameText:Object = JSON.decode(LoaderMax.getContent("_gameText"));
-        texts = new DataManager(_gameText, "TextsMAnager");
+        texts = new DataManager(_gameText, "TextsMAnager",false);
 
         var _gameData:Object = JSON.decode(LoaderMax.getContent("_gameData"));
         gameData= new ControleTelaVo();
