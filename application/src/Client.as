@@ -7,9 +7,6 @@
  */
 package {
 import flash.display.MovieClip;
-import flash.display.Stage;
-import flash.system.Security;
-import flash.text.TextField;
 
 [SWF(width="869", height="540", backgroundColor="#cccccc", frameRate="24", pageTitle="Paquetá")]
 public class Client extends MovieClip {

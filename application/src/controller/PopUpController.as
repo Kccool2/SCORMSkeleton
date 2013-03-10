@@ -7,9 +7,6 @@ import flash.display.MovieClip;
 import managers.EventManager;
 
 import view.Alert;
-
-import view.Hud;
-import view.ListaCurso;
 import view.Question;
 import view.mapaCurso.MapaCurso;
 

@@ -10,9 +10,7 @@ import com.adobe.serialization.json.JSON;
 import com.greensock.loading.LoaderMax;
 
 import managers.DataManager;
-import managers.DebuggerManager;
 import managers.EventManager;
-import managers.SerializerManager;
 
 import model.ControleTelaVo;
 import model.SaveObject;

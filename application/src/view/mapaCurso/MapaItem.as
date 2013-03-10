@@ -7,12 +7,9 @@
  */
 package view.mapaCurso {
 import flash.display.MovieClip;
-
 import flash.text.TextField;
 
 import managers.ButtonManager;
-
-
 
 public class MapaItem extends MovieClip {
     public static const UNCHECKED:int = 1;

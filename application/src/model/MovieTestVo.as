@@ -6,8 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 package model {
-import managers.EventManager;
-
 public class MovieTestVo {
     public var title:String = "";
 

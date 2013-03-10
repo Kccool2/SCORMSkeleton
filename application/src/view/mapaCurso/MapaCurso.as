@@ -13,8 +13,6 @@ import controller.StateController;
 import flash.display.MovieClip;
 
 import managers.ButtonManager;
-
-import managers.DebuggerManager;
 import managers.EventManager;
 
 import view.scroller.Scroll;

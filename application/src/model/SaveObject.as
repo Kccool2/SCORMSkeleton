@@ -6,8 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 package model {
-import com.greensock.plugins.EndVectorPlugin;
-
 public class SaveObject {
     public var telaAtual:int = 0;
     public var ultimaTela:int = 0;

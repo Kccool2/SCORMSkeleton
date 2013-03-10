@@ -11,7 +11,6 @@ import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
 import flash.display.MovieClip;
-import flash.events.Event;
 import flash.events.KeyboardEvent;
 
 import managers.AssetsManager;
@@ -26,17 +25,13 @@ import model.HudVo;
 import preloader.PreloaderManager;
 
 import view.Hud;
-import view.mapaCurso.MapaCurso;
 
 public class GameController {
     public var mapController:MapController;
     public var hudController:HudController;
     public var popUpController:PopUpController;
 
-    public var stateMachine:StateController;
-
     public static var ticker:TimeTickerManager;
-
     public static var hud:Hud;
 
     public static var currentContent:MovieClip;
@@ -63,13 +58,13 @@ public class GameController {
         hud = Hud(hudController.addViewScheme(Hud, o, "test", null, 0, 0, "PopUpController.Hud"));
         hud.showHud();
         PreloaderManager.setVisible(false);
-        StateController.save.ultimaTela=12;
+        StateController.save.ultimaTela = 12;
 
-        EventManager.addListener("MapaCurso.onItemClick","MapaCurso.onItemClick",onMapaCursoClick);
+        EventManager.addListener("MapaCurso.onItemClick", "MapaCurso.onItemClick", onMapaCursoClick);
         startPlay();
 
-        //popUpController.question.showQuestion("alo teste",onClickQuestion)
-        /*Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
+       /*popUpController.question.showQuestion("alo teste",onClickQuestion)
+        Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
          var m2:MovieTest = new MovieTest();
          var p:Point = ToolGame.calcQuadrantPos(m2, m2.fundo, 1, 1);
 
@@ -91,11 +86,11 @@ public class GameController {
         //PreloaderManager.setTextLabel("Aguarde, carregando SCORM...");
     }
 
-    public function onMapaCursoClick(bt:MovieClip):void{
+    public function onMapaCursoClick(bt:MovieClip):void {
 
-        StateController.save.telaAtual=bt.indice;
+        StateController.save.telaAtual = bt.indice;
         popUpController.mapa.close();
-        TweenMax.delayedCall(.5,startPlay);
+        TweenMax.delayedCall(.5, startPlay);
 
     }
 
@@ -154,7 +149,7 @@ public class GameController {
         }
     }
 
-    public function forceSTOP():void{
+    public function forceSTOP():void {
         contentPlaying = false;
         stopLipSync();
         clearListenertnscontent();
@@ -188,8 +183,6 @@ public class GameController {
         continueAnimation();
     }
 
-
-
     public function doPlay(event:LoaderEvent = null):void {
         clearListenertnscontent();
         if (currentContent != null) {
@@ -217,8 +210,6 @@ public class GameController {
         }
         btnsOnContent = [];
     }
-
-
 
     public static function stopLipSync():void {
         if (currentLipSync != '') {
@@ -263,7 +254,6 @@ public class GameController {
     public static function finalTela():void {
         hud.setButtonsEnabled(true);
         ButtonManager.addOverEffect(hud.btnNext);
-
 
     }
 

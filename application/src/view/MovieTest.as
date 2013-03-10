@@ -11,8 +11,6 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.events.MouseEvent;
 
-import managers.EventManager;
-
 public class MovieTest extends ViewElement {
     public var fundo:MovieClip;
     public var frente:MovieClip;
