@@ -48,6 +48,9 @@ public class StateController {
     public static function get titutloAtual():String{
          return gameData.telas[save.telaAtual].titulo;
     }
+    public static function get titutlo2Atual():String{
+        return gameData.telas[save.telaAtual].titulo2;
+    }
     public static function get telaAtual():String{
         return gameData.telas[save.telaAtual].tela;
     }

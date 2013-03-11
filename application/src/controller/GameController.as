@@ -10,6 +10,8 @@ import com.greensock.TweenMax;
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
+import flash.display.DisplayObject;
+
 import flash.display.MovieClip;
 import flash.events.KeyboardEvent;
 
@@ -37,7 +39,15 @@ public class GameController {
     public static var currentContent:MovieClip;
     public static var currentLipSync:String = '';
     public static var btnsOnContent:Array = [];
-    public static var contentPlaying:Boolean = false;
+    public static var status:String = EMPTY;
+
+    public static const STOPPED:String = 'stopped';
+    public static const PAUSED:String = 'paused';
+    public static const PLAYING_PAUSE:String = 'playingPaused';
+    public static const PLAYING:String = 'playing';
+    public static const EMPTY:String = 'empty';
+
+    public static var isMute:Boolean = false;
 
     public function GameController(mapLayer:MovieClip, hudLayer:MovieClip, popupLayer:MovieClip) {
         ticker = new TimeTickerManager();
@@ -58,13 +68,14 @@ public class GameController {
         hud = Hud(hudController.addViewScheme(Hud, o, "test", null, 0, 0, "PopUpController.Hud"));
         hud.showHud();
         PreloaderManager.setVisible(false);
-        StateController.save.ultimaTela = 12;
 
-        EventManager.addListener("MapaCurso.onItemClick", "MapaCurso.onItemClick", onMapaCursoClick);
+        EventManager.addListener("GameController.onItemClick", "GameController.onItemClick", onMapaCursoClick);
+        EventManager.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
+       StateController.save.ultimaTela=2;
+       StateController.save.telaAtual=2;
         startPlay();
-
-       /*popUpController.question.showQuestion("alo teste",onClickQuestion)
-        Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
+        /*popUpController.question.showQuestion("alo teste",onClickQuestion)
+         Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
          var m2:MovieTest = new MovieTest();
          var p:Point = ToolGame.calcQuadrantPos(m2, m2.fundo, 1, 1);
 
@@ -87,11 +98,34 @@ public class GameController {
     }
 
     public function onMapaCursoClick(bt:MovieClip):void {
-
+        forceRemoveContent();
         StateController.save.telaAtual = bt.indice;
-        popUpController.mapa.close();
-        TweenMax.delayedCall(.5, startPlay);
+        startPlay();
+    }
 
+    public function onMapaFecharClick(bt:MovieClip = null):void {
+        trace('onMapaFecharClick', status)
+        if (status == PLAYING_PAUSE) {
+            if (currentLipSync != '') {
+                SoundManager.play(currentLipSync)
+            }else{
+                stopLipSync();
+                clearListenertnsContent();
+                currentContent.play();
+                status = PLAYING;
+            }
+        } else {
+            if (currentLipSync != '') {
+                SoundManager.play(currentLipSync)
+            }
+
+        }
+
+    }
+
+    public function clickHome():void {
+        forcePause();
+        EventManager.dispatch(this, "PopUpController.showMapa");
     }
 
     public function onClickQuestion(option:Boolean):void {
@@ -106,53 +140,110 @@ public class GameController {
 
     public function clickSound(enable:Boolean):void {
         enable ? SoundManager.unmuteAll() : SoundManager.muteAll();
-    }
-
-    public function clickHome():void {
-        forceSTOP();
-        EventManager.dispatch(this, "PopUpController.showMapa");
+        isMute = !enable;
+        trace(isMute)
     }
 
     public function clickPrev():void {
+
         if (StateController.save.telaAtual > 0) {
-            StateController.save.telaAtual--;
-            stopLipSync();
-            startPlay();
+           if(currentContent.currentFrame>15){
+               clearListenertnsContent();
+               stopLipSync();
+               currentContent.gotoAndStop(1);
+           } else{
+               forceRemoveContent();
+               StateController.save.telaAtual--;
+           }
+        }else{
+            forceRemoveContent();
         }
+        startPlay();
     }
 
     public function clickNext():void {
-
-        if (StateController.save.ultimaTela > StateController.save.telaAtual) {
-
-            if (currentContent.currentFrame == currentContent.totalFrames) {
-                StateController.save.telaAtual++;
-                stopLipSync();
-                startPlay();
-            }
-            else {
-                if (!contentPlaying) {
-                    continuePlay();
-                }
-            }
-
-        } else {
-            if (!contentPlaying) {
+        trace(status)
+        switch (status) {
+            case PLAYING_PAUSE:
+            case PAUSED:
                 if (currentContent.currentFrame == currentContent.totalFrames) {
-                    stopLipSync();
+                    forceRemoveContent();
                     walkToNextStep();
                     startPlay();
                 } else {
-                    continuePlay();
+                    stopLipSync();
+                    continueAnimation();
                 }
-            }
+                break;
+            case PLAYING:
+                if (StateController.save.ultimaTela > StateController.save.telaAtual) {
+                    forceRemoveContent();
+                    walkToNextStep();
+                    startPlay();
+                }
+                break;
+            case STOPPED:
+            case EMPTY:
+            default:
+                if (currentContent != null) {
+                    if (currentContent.currentFrame == currentContent.totalFrames) {
+                        forceRemoveContent();
+                        walkToNextStep();
+                    }
+                }
+                startPlay();
+                break;
         }
     }
 
-    public function forceSTOP():void {
-        contentPlaying = false;
+    private function forcePause():void {
+        if (currentLipSync != '') {
+            SoundManager.pause(currentLipSync);
+        }
+        status = status == PLAYING||PLAYING_PAUSE ? PLAYING_PAUSE : PAUSED;
+        if (currentContent != null) {
+            currentContent.stop();
+        }
+        trace('forcePause', status)
+    }
+
+    public static function continueAnimation():void {
+        if (status == PLAYING_PAUSE) {
+            stopLipSync();
+            clearListenertnsContent();
+            currentContent.play();
+        } else {
+            if (currentLipSync != '') {
+                SoundManager.play(currentLipSync)
+            }
+
+        }
+        status = PLAYING;
+
+
+    }
+
+    private function forceStop():void {
         stopLipSync();
-        clearListenertnscontent();
+        clearListenertnsContent();
+        status = STOPPED;
+        if (currentContent != null) {
+            currentContent.gotoAndStop(1);
+        }
+    }
+
+    private function forceRemoveContent():void {
+        stopLipSync();
+        clearListenertnsContent();
+        var _do:DisplayObject;
+        while (hud.content.numChildren > 0) {
+            _do = hud.content.removeChildAt(0);
+            if (_do is MovieClip) {
+                MovieClip(_do).stop();
+            }
+        }
+        currentContent = null;
+        status = EMPTY;
     }
 
     private function walkToNextStep():void {
@@ -171,61 +262,38 @@ public class GameController {
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
             AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, PreloaderManager.setVisible)
         } else {
-            LoaderMax.getContent(StateController.telaAtual).rawContent["content"].gotoAndStop(1);
+            if( LoaderMax.getContent(StateController.telaAtual)!=null){
+                if(   LoaderMax.getContent(StateController.telaAtual).rawContent["content"]!=null){
+                    forceRemoveContent();
+                    stopCourse();
+                    LoaderMax.getContent(StateController.telaAtual).rawContent["content"].gotoAndStop(1);
+
+                }
+            }
+
             doPlay();
         }
     }
 
-    public function continuePlay():void {
-
-        StateController.save.ultimaTela = StateController.save.telaAtual;
-        clearListenertnscontent();
-        continueAnimation();
-    }
-
     public function doPlay(event:LoaderEvent = null):void {
-        clearListenertnscontent();
-        if (currentContent != null) {
-            contentPlaying = false;
-            currentContent.stop();
-            hud.content.removeChild(currentContent);
-            currentContent = null;
-        }
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
-
         hud.content.addChild(currentContent);
         hud.txtTitle.htmlText = StateController.titutloAtual;
+        hud.txtTitle2.htmlText =StateController.titutlo2Atual;
         hud.txtTelas.htmlText = StateController.telaAtual + ' - ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
-        contentPlaying = true;
+        hud.txtPagina.htmlText ='Página: '+ (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
+        status = PLAYING;
         currentContent.play();
-        if (StateController.save.telaAtual == StateController.save.ultimaTela)
-            hud.setButtonsEnabled(false);
+
 
     }
 
-    public function clearListenertnscontent():void {
+    private static function clearListenertnsContent():void {
         for (var i:int = 0; i < btnsOnContent.length; i++) {
             var key:String = btnsOnContent[i];
             ButtonManager.removeButton(key);
         }
         btnsOnContent = [];
-    }
-
-    public static function stopLipSync():void {
-        if (currentLipSync != '') {
-            LipSyncManager.disableLipsync();
-            SoundManager.stop(currentLipSync);
-            currentLipSync = '';
-        }
-    }
-
-    public static function continueAnimation():void {
-        contentPlaying = true;
-        stopLipSync();
-        currentContent.play();
-        if (StateController.save.telaAtual == StateController.save.ultimaTela)
-            hud.setButtonsEnabled(false);
-
     }
 
     public static function addButton(key:String, btn:MovieClip, fn:Function):void {
@@ -236,35 +304,45 @@ public class GameController {
     }
 
     public static function startLipSync(mouth:MovieClip, sound:String):void {
-
+        stopLipSync();
         LipSyncManager.enableLipsync(mouth);
         currentLipSync = sound;
-        SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3');
-        SoundManager.play(sound);
+        SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3', 2000, false, {onComplete: onCompleteLipSync});
+        SoundManager.play(sound, isMute ? 0 : 1);
+    }
+
+    public static function stopLipSync():void {
+        if (currentLipSync != '') {
+            LipSyncManager.disableLipsync();
+            SoundManager.stop(currentLipSync);
+            currentLipSync = '';
+        }
+    }
+
+    public static function onCompleteLipSync(o:Object = null) {
+        status = PLAYING_PAUSE;
+        stopLipSync();
     }
 
     public static function stopCourse():void {
-        contentPlaying = false;
+        status = PLAYING_PAUSE;
+        if(currentContent!=null)
         currentContent.stop();
-        hud.setButtonsEnabled(true);
-        ButtonManager.addOverEffect(hud.btnNext);
 
+        ButtonManager.addOverEffect(hud.btnNext);
     }
 
     public static function finalTela():void {
-        hud.setButtonsEnabled(true);
-        ButtonManager.addOverEffect(hud.btnNext);
+        stopCourse();
 
     }
 
     public static function finalCurso():void {
-
-        hud.setButtonsEnabled(true);
+        stopCourse();
     }
 
     private function onKeyDown(event:KeyboardEvent):void {
         if (event.ctrlKey && event.altKey) {
-
             stopLipSync();
             walkToNextStep();
             startPlay();
@@ -272,3 +350,5 @@ public class GameController {
     }
 }
 }
+
+//addButton, startLipSync  stopCourse  finalTela finalCurso

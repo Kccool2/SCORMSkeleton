@@ -2,49 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" afterPath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/Utils.swc" afterPath="$PROJECT_DIR$/application/libs/Utils.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/hud.fla" afterPath="$PROJECT_DIR$/application/fla/hud.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/mapaCurso.fla" afterPath="$PROJECT_DIR$/application/fla/mapaCurso.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Alert.as" afterPath="$PROJECT_DIR$/application/src/view/Alert.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BaseView.as" afterPath="$PROJECT_DIR$/application/src/view/BaseView.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BtnPopup.as" afterPath="$PROJECT_DIR$/application/src/view/BtnPopup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Client.as" afterPath="$PROJECT_DIR$/application/src/Client.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Hud.as" afterPath="$PROJECT_DIR$/application/src/view/Hud.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/HudController.as" afterPath="$PROJECT_DIR$/application/src/controller/HudController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Main.as" afterPath="$PROJECT_DIR$/application/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/MapController.as" afterPath="$PROJECT_DIR$/application/src/controller/MapController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" afterPath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MovieTest.as" afterPath="$PROJECT_DIR$/application/src/view/MovieTest.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/MovieTestVo.as" afterPath="$PROJECT_DIR$/application/src/model/MovieTestVo.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/PopUpController.as" afterPath="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Question.as" afterPath="$PROJECT_DIR$/application/src/view/Question.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/model/SaveObject.as" afterPath="$PROJECT_DIR$/application/src/model/SaveObject.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362876952851" ignored="false" />
-    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362882417853" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944261846" ignored="false" />
+    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944317396" ignored="false" />
     <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360715006664" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360364477011" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
-    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362791615395" ignored="false" />
+    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362965470322" ignored="false" />
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
-    <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603602960" ignored="false" />
+    <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944115891" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
     <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362774271746" ignored="false" />
     <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
-    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362519424364" ignored="false" />
+    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362963689490" ignored="false" />
     <file path="/BaseView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546377391" ignored="false" />
     <file path="/PopUpController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790523279" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786920772" ignored="false" />
@@ -54,7 +43,7 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360548229304" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="/ControleTelaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360551056952" ignored="false" />
-    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362787806915" ignored="false" />
+    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362963760302" ignored="false" />
     <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362783878638" ignored="false" />
     <file path="/Client.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362583570306" ignored="false" />
     <file path="/TODOs.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360553345350" ignored="false" />
@@ -96,7 +85,7 @@
     <file path="/InteracaoFechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603255513" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772523976" ignored="false" />
     <file path="/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772498047" ignored="false" />
-    <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362791586598" ignored="false" />
+    <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362948366009" ignored="false" />
     <file path="/MapaItemPrincipal.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362788075198" ignored="false" />
     <file path="/MapaItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790135037" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/bases/LayerControllerBase.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879891" ignored="false" />
@@ -107,8 +96,14 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/IView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
-    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362787689351" ignored="false" />
+    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
     <file path="/a.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362876634364" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/soundalize/SoundItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947123886" ignored="false" />
+    <file path="/SoundItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362945879841" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/soundalize/SoundManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362946812569" ignored="false" />
+    <file path="/SoundManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362946461496" ignored="false" />
+    <file path="$PROJECT_DIR$/application/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
+    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +121,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -161,6 +155,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -173,10 +168,11 @@
       <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="17" selection-start="3084" selection-end="3084" vertical-scroll-proportion="0.32421875">
+            <state line="315" column="39" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.37890044">
               <folding>
                 <element signature="e#174#204#0" expanded="true" />
-                <element signature="e#2083#2832#0" expanded="false" />
+                <element signature="n#!!block;n#onClickQuestion#0;n#GameController#0;n#controller#0" expanded="false" />
+                <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -185,7 +181,7 @@
       <file leaf-file-name="StateController.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="5" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
+            <state line="46" column="57" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,7 +199,7 @@
       <file leaf-file-name="Hud.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="37" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
+            <state line="26" column="24" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,8 +217,10 @@
       <file leaf-file-name="MapaCurso.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="10" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="85" column="40" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#178#208#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -269,27 +267,27 @@
         <option value="$PROJECT_DIR$/PlayerCriarTelas/src/PlayerCriarTelas.as" />
         <option value="$PROJECT_DIR$/application/src/view/MovieTest.as" />
         <option value="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" />
-        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/index.html" />
         <option value="$PROJECT_DIR$/application/src/Client.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
-        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
         <option value="$PROJECT_DIR$/application/src/view/Alert.as" />
         <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
+        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
+        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-336" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -519,7 +517,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -540,6 +537,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,17 +548,17 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="settings.php.debug.skipped.paths" />
-    <property name="last_opened_file_path" value="$USER_HOME$/sdks/flashplayer_11_sa_debug.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../filiperp_project_skeleton" />
     <property name="project.structure.side.proportion" value="0.14335664" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -830,8 +828,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-336" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -839,19 +837,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30905077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3071749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45353982" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18049328" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18437026" sideWeight="0.6909492" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12820514" sideWeight="0.8195067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -932,7 +930,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -940,11 +938,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/src/model/SaveObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" />
@@ -962,21 +955,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/application/libs/SWC.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1118" column="14" selection-start="50304" selection-end="50304" vertical-scroll-proportion="0.14797688" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/assets.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="84" selection-start="802" selection-end="802" vertical-scroll-proportion="0.21867882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1016,31 +997,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="85" selection-start="280" selection-end="280" vertical-scroll-proportion="0.08788598" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/application/libs/SWC.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1256" column="54" selection-start="57394" selection-end="57410" vertical-scroll-proportion="0.332533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/flex_sdk_4.1.0.16076A/frameworks/libs/player/10.0/playerglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4631" column="25" selection-start="192408" selection-end="192408" vertical-scroll-proportion="0.3321492">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="37" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
+        <state line="26" column="24" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="57" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="85" column="40" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#178#208#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="85" selection-start="280" selection-end="280" vertical-scroll-proportion="0.08788598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="17" selection-start="3084" selection-end="3084" vertical-scroll-proportion="0.32421875">
+        <state line="315" column="39" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.37890044">
           <folding>
             <element signature="e#174#204#0" expanded="true" />
-            <element signature="e#2083#2832#0" expanded="false" />
+            <element signature="n#!!block;n#onClickQuestion#0;n#GameController#0;n#controller#0" expanded="false" />
+            <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
           </folding>
         </state>
       </provider>

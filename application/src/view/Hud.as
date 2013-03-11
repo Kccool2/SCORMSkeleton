@@ -23,6 +23,8 @@ public class Hud  extends BaseView{
     public var btnSound:MovieClip;
     public var content:MovieClip;
     public var txtTitle:TextField;
+    public var txtTitle2:TextField;
+    public var txtPagina:TextField;
     public var txtTelas:TextField;
 
     public var hasSound:Boolean= true;

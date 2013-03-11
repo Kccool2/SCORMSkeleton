@@ -7,6 +7,7 @@
  */
 package view.mapaCurso {
 import com.greensock.TweenMax;
+import com.greensock.TweenMax;
 
 import controller.StateController;
 
@@ -41,6 +42,9 @@ public class MapaCurso extends MovieClip {
 
     public function close(bt:MovieClip=null):void {
         TweenMax.to(this, 0.4, {autoAlpha: 0});
+        if(bt!=null){
+            TweenMax.delayedCall(.4,EventManager.dispatch,[this, "GameController.onMapaFecharClick",bt]);
+        }
     }
 
     public function show():void {
@@ -79,7 +83,7 @@ public class MapaCurso extends MovieClip {
         var skrllPArams:ScrollParameter = new ScrollParameter();
         skrllPArams.relativeSizeV = false;
         skrllPArams.repositionAll = false;
-        skrllPArams.trackerDefaultV = 54;
+        skrllPArams.trackerDefaultV = 31;
         skrllPArams.relativeTrackers = false;
         scroller = new Scroll(Main.mainStage, content, container, skrllPArams);
         scroller.setScrollTracks(track, tracker);
@@ -88,10 +92,8 @@ public class MapaCurso extends MovieClip {
     }
 
     public function onItemClick(bt:MovieClip):void {
-
-        EventManager.dispatch(this, "MapaCurso.onItemClick",bt);
-        StateController.save.telaAtual=bt.indice;
         close();
+        TweenMax.delayedCall(.4,EventManager.dispatch,[this, "GameController.onItemClick",bt]);
     }
 
     public function refreshIrens(bt:MovieClip = null):void {
