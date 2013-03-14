@@ -11,7 +11,7 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-import managers.ButtonManager;
+import managers.buttons.ButtonManager_OLD;
 
 import model.HudVo;
 
@@ -41,7 +41,7 @@ public class Hud  extends BaseView{
         this.alpha = 0;
         this.btnPlay.gotoAndStop(2);
         for (var i:int = 0; i < btns.length; i++) {
-            ButtonManager.setButton("IndexBone."+btns[i],this[btns[i]],this['onClick_'+btns[i]],0.3)
+            ButtonManager_OLD .setButton("IndexBone."+btns[i],this[btns[i]],this['onClick_'+btns[i]],0.3)
         }
         btnPlay.visible=false;
 
@@ -49,13 +49,13 @@ public class Hud  extends BaseView{
 
     override public function destroy():void {
         for (var i:int = 0; i < btns.length; i++) {
-            ButtonManager.removeButton("IndexBone."+btns[i]);
+            ButtonManager_OLD.removeButton("IndexBone."+btns[i]);
         }
     }
 
     public function setButtonsEnabled(enabled:Boolean = true):void{
         for (var i:int = 0; i < btns.length; i++) {
-            ButtonManager.setEnabled(enabled,"IndexBone."+btns[i])
+            ButtonManager_OLD.setEnabled(enabled,"IndexBone."+btns[i])
         }
     }
 

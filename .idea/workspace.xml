@@ -2,38 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/view/VideoPlayer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/view/YoutubeController.as" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T02.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T02.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T04.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T05.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T06.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T07.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T07.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T08.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T09.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T09.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T10.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T10.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T11.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T12.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T13.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T14.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T15.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T16.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_GM50007_A1.1_M01_T17.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_index.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_template.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\flatest\paqueta_template.swf" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\MonsterDebugger.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\SCORMUtils.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\Utils.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\as3corelib.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\defaultLoader.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\greensock.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\libs\mdm.swc" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T01.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T02.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T02a.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T04.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T05.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T06.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T07.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T08.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T09.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T10.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T11.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T12.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T13.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T14.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T15.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T16.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_GM50007_A1.1_M01_T17.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_index.fla" afterPath="" />
+      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\telas_old\paqueta_template.fla" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" afterPath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SWC.swc" afterPath="$PROJECT_DIR$/application/libs/SWC.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/Utils.swc" afterPath="$PROJECT_DIR$/application/libs/Utils.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/assets.fla" afterPath="$PROJECT_DIR$/application/fla/assets.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/assets.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/assets.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/hud.fla" afterPath="$PROJECT_DIR$/application/fla/hud.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/mapaCurso.fla" afterPath="$PROJECT_DIR$/application/fla/mapaCurso.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T01.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M00_T03.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T03.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Alert.as" afterPath="$PROJECT_DIR$/application/src/view/Alert.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Hud.as" afterPath="$PROJECT_DIR$/application/src/view/Hud.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Question.as" afterPath="$PROJECT_DIR$/application/src/view/Question.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944261846" ignored="false" />
-    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944317396" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363181700186" ignored="false" />
+    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363220107606" ignored="false" />
     <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360715006664" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360364477011" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
-    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362965470322" ignored="false" />
+    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363226957737" ignored="false" />
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
-    <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362944115891" ignored="false" />
+    <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205682943" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
     <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362774271746" ignored="false" />
-    <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
+    <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363213827776" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
-    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362963689490" ignored="false" />
+    <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136983007" ignored="false" />
     <file path="/BaseView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546377391" ignored="false" />
     <file path="/PopUpController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790523279" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ClientManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786920772" ignored="false" />
@@ -49,13 +102,13 @@
     <file path="/TODOs.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360553345350" ignored="false" />
     <file path="/SaveObject.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360686568232" ignored="false" />
     <file path="/HudVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360599566454" ignored="false" />
-    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360602348018" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363213864517" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/LipSyncManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360611916011" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360615929942" ignored="false" />
     <file path="/Conteudo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360683949721" ignored="false" />
-    <file path="/Question.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360712624745" ignored="false" />
+    <file path="/Question.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363137025663" ignored="false" />
     <file path="/BtnPopup.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360708518917" ignored="false" />
-    <file path="/Alert.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790455966" ignored="false" />
+    <file path="/Alert.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136961056" ignored="false" />
     <file path="/ListaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720410536" ignored="false" />
     <file path="/ItemLista.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360720184996" ignored="false" />
     <file path="/PlayerCriarTelas.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360863202105" ignored="false" />
@@ -85,9 +138,9 @@
     <file path="/InteracaoFechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603255513" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772523976" ignored="false" />
     <file path="/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772498047" ignored="false" />
-    <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362948366009" ignored="false" />
-    <file path="/MapaItemPrincipal.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362788075198" ignored="false" />
-    <file path="/MapaItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362790135037" ignored="false" />
+    <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136996800" ignored="false" />
+    <file path="/MapaItemPrincipal.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363137001767" ignored="false" />
+    <file path="/MapaItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363137011720" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/bases/LayerControllerBase.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879891" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/DataManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
@@ -96,14 +149,78 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/ButtonManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/IView.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879893" ignored="false" />
-    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/library.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
     <file path="/a.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362876634364" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/soundalize/SoundItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947123886" ignored="false" />
     <file path="/SoundItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362945879841" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/soundalize/SoundManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362946812569" ignored="false" />
     <file path="/SoundManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362946461496" ignored="false" />
     <file path="$PROJECT_DIR$/application/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
-    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362947400779" ignored="false" />
+    <file path="$PROJECT_DIR$/application/libs/Utils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136902233" ignored="false" />
+    <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/managers/buttons/ButtonManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363186629712" ignored="false" />
+    <file path="/LeYoutube.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363186661202" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_Flash/snippet/YoutubeAPI/src/YoutubeAPI.mxml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363187220902" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_Flash/snippet/YoutubeAPI/src/LePlayer.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363211388641" ignored="false" />
+    <file path="/LePlayer.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363187526878" ignored="false" />
+    <file path="/YoutubeAPI.mxml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363187220902" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/admin/js/paginacaoBootStrap.js" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197135369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/admin/sintetico.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197135369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/admin/admin.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363206279709" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/admin/dadosRelAnalitico.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197135369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/inc/funcoes_database.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197135369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/inc/funcoes_usuario.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/index.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/resultado.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/inc/funcoes_auth.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/inc/rootConfig.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/logout_x.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/inc/ConectaVagas.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/index.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363197431518" ignored="false" />
+    <file path="/admin.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363202674919" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_php/DMR02/bin/00001/admin/analitico.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363202785589" ignored="false" />
+    <file path="/analitico.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363202779519" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295594" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/AguardeAviso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295594" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/saveUtils/MarcaLoading.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295594" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/telaErro.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/telaLogin.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/crossdomain.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/index.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/abertura_ano.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/service.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/main.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363206126380" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/index.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/bloco_texto.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/botoes.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/como_jogar.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/definitions.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205578760" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/feedback.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/fonts.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/hud.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/backgrounds.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/baloes.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/perguntas.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/pop_situacaoProblema.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/premiacao.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/relatorios.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/slider.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/transicao.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/intervencao.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/intro.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/ipad.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/loading.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/data/main.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204295596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/com/greensock/TweenMax.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204310976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/com/greensock/TimelineMax.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204310976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/com/greensock/core/TweenCore.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204310976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/Ipad.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363210093425" ignored="false" />
+    <file path="/Ipad.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205807311" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/bin/js/jquery-1.7.js" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363204931564" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/SituacaoProblema.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205438764" ignored="false" />
+    <file path="/SituacaoProblema.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205420513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_assembla/oi_aennova/trunk/src/LoaderControl.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205491535" ignored="false" />
+    <file path="/definitions.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363205575262" ignored="false" />
+    <file path="/YoutubeController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363227500296" ignored="false" />
+    <file path="/VideoPlayer.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363220468184" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +238,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -155,7 +273,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -165,12 +282,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameController.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="315" column="39" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.37890044">
+            <state line="330" column="76" selection-start="11089" selection-end="11089" vertical-scroll-proportion="-1.3846154">
               <folding>
-                <element signature="e#174#204#0" expanded="true" />
+                <element signature="e#174#214#0" expanded="true" />
                 <element signature="n#!!block;n#onClickQuestion#0;n#GameController#0;n#controller#0" expanded="false" />
                 <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
               </folding>
@@ -178,19 +295,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
+      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="57" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
+            <state line="110" column="80" selection-start="3743" selection-end="3743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopUpController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
+      <file leaf-file-name="Client.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/Client.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="85" selection-start="913" selection-end="937" vertical-scroll-proportion="0.0">
+            <state line="22" column="5" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoPlayer.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/view/VideoPlayer.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#168#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeController.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/src/view/YoutubeController.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="205" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.5117371">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#168#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonsterDebuggerUtils.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="mock:///MonsterDebuggerUtils.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,16 +348,7 @@
       <file leaf-file-name="Hud.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Alert.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+            <state line="43" column="29" selection-start="1233" selection-end="1250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,10 +357,8 @@
       <file leaf-file-name="MapaCurso.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="40" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#178#208#0" expanded="true" />
-              </folding>
+            <state line="51" column="29" selection-start="0" selection-end="4214" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,7 +366,7 @@
       <file leaf-file-name="MapaItemPrincipal.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="499" selection-end="531" vertical-scroll-proportion="0.0">
+            <state line="34" column="25" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,7 +375,7 @@
       <file leaf-file-name="MapaItem.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="51" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+            <state line="21" column="75" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -263,31 +401,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/src/view/ListaCurso.as" />
-        <option value="$PROJECT_DIR$/PlayerCriarTelas/src/PlayerCriarTelas.as" />
-        <option value="$PROJECT_DIR$/application/src/view/MovieTest.as" />
-        <option value="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/index.html" />
         <option value="$PROJECT_DIR$/application/src/Client.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
+        <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
+        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
+        <option value="$PROJECT_DIR$/application/src/view/Alert.as" />
+        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
+        <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
-        <option value="$PROJECT_DIR$/application/src/view/Alert.as" />
-        <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
-        <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-        <option value="$PROJECT_DIR$/application/src/view/Hud.as" />
-        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
+        <option value="$PROJECT_DIR$/application/src/view/Question.as" />
+        <option value="$PROJECT_DIR$/application/src/LeYoutube.as" />
+        <option value="$PROJECT_DIR$/application/src/view/VideoPlayer.as" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
+        <option value="$PROJECT_DIR$/application/src/view/YoutubeController.as" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-336" />
-    <option name="y" value="-1088" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -535,6 +673,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCORMSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCORMSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -548,7 +718,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="settings.php.debug.skipped.paths" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../filiperp_project_skeleton" />
+    <property name="last_opened_file_path" value="E:/FlexSDK/flashplayer_11_sa_debug.exe" />
     <property name="project.structure.side.proportion" value="0.14335664" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -635,17 +805,17 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="view.mapaCurso" />
-      <recent name="" />
-      <recent name="view" />
-      <recent name="model" />
-      <recent name="scormViewBones" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\libs" />
       <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\data\assets" />
       <recent name="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\src\view" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="view" />
+      <recent name="" />
+      <recent name="view.mapaCurso" />
+      <recent name="model" />
+      <recent name="scormViewBones" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.application">
@@ -763,7 +933,7 @@
         <LauncherParameters>
           <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="Player" />
-          <option name="playerPath" value="$USER_HOME$/sdks/flashplayer_11_sa_debug.exe" />
+          <option name="playerPath" value="E:/FlexSDK/flashplayer_11_sa_debug.exe" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -828,8 +998,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-336" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -837,30 +1007,30 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3071749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30684328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18049328" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1799117" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12820514" sideWeight="0.8195067" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12753469" sideWeight="0.8200883" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -930,7 +1100,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -938,40 +1108,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/src/view/MovieTest.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="52" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/assets.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="84" selection-start="802" selection-end="802" vertical-scroll-proportion="0.21867882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="499" selection-end="531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -990,37 +1129,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="85" selection-start="280" selection-end="280" vertical-scroll-proportion="0.08788598" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/application/libs/SWC.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1256" column="54" selection-start="57394" selection-end="57410" vertical-scroll-proportion="0.332533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/sdks/flex_sdk_4.1.0.16076A/frameworks/libs/player/10.0/playerglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4631" column="25" selection-start="192408" selection-end="192408" vertical-scroll-proportion="0.3321492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
@@ -1030,22 +1141,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/Alert.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="25" selection-start="0" selection-end="1142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="29" selection-start="1233" selection-end="1250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="40" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#178#208#0" expanded="true" />
-          </folding>
+        <state line="51" column="29" selection-start="0" selection-end="4214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/Question.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-0.092307694" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="75" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="80" selection-start="3743" selection-end="3743" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Client.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="39" selection-start="10854" selection-end="10854" vertical-scroll-proportion="0.37890044">
+        <state line="330" column="76" selection-start="11089" selection-end="11089" vertical-scroll-proportion="-1.3846154">
           <folding>
-            <element signature="e#174#204#0" expanded="true" />
+            <element signature="e#174#214#0" expanded="true" />
             <element signature="n#!!block;n#onClickQuestion#0;n#GameController#0;n#controller#0" expanded="false" />
             <element signature="n#!!block;n#onClickAlert#0;n#GameController#0;n#controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/VideoPlayer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#168#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/view/YoutubeController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="205" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.5117371">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#168#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1102,7 +1277,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SWC|application</last-edited>
+          <last-edited>application|application</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

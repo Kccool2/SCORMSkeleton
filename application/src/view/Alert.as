@@ -11,7 +11,7 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-import managers.ButtonManager;
+import managers.buttons.ButtonManager_OLD;
 
 public class Alert extends MovieClip {
     public var txtCaption:TextField;
@@ -28,7 +28,7 @@ public class Alert extends MovieClip {
         btnOK.x = 316;
         btnOK.y = 300;
         this.addChild(btnOK);
-        ButtonManager.setButton('Alert.btnOK',btnOK,onClick,0.3);
+        ButtonManager_OLD.setButton('Alert.btnOK',btnOK,onClick,0.3);
 
     }
     public function showAlert(question:String, onClick:Function):void{

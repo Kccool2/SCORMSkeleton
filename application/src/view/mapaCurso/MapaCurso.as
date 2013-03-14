@@ -7,14 +7,13 @@
  */
 package view.mapaCurso {
 import com.greensock.TweenMax;
-import com.greensock.TweenMax;
 
 import controller.StateController;
 
 import flash.display.MovieClip;
 
-import managers.ButtonManager;
 import managers.EventManager;
+import managers.buttons.ButtonManager_OLD;
 
 import view.scroller.Scroll;
 import view.scroller.ScrollParameter;
@@ -50,7 +49,7 @@ public class MapaCurso extends MovieClip {
     public function show():void {
         TweenMax.to(this,.4,{autoAlpha:1});
         if (!initialized) {
-            ButtonManager.setButton('MapaCurso.btFechar',btFechar,close,.2,0x999999);
+            ButtonManager_OLD.setButton('MapaCurso.btFechar',btFechar,close,.2,0x999999);
             initialized = true;
             loadItens();
         }

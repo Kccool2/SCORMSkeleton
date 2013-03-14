@@ -9,7 +9,7 @@ package view.mapaCurso {
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-import managers.ButtonManager;
+import managers.buttons.ButtonManager_OLD;
 
 public class MapaItem extends MovieClip {
     public static const UNCHECKED:int = 1;
@@ -35,11 +35,11 @@ public class MapaItem extends MovieClip {
         check.gotoAndStop(enabled? MapaItem.CHECK : MapaItem.UNCHECKED);
 
         if(enabled){
-            if(ButtonManager.regiteredButtons().indexOf('view.mapaCurso.MapaItem'+indice.toString())==-1){
-                ButtonManager.setButton('view.mapaCurso.MapaItem'+indice.toString(),this, onClickMe, .1, 0xcccccc) ;
+            if(ButtonManager_OLD.regiteredButtons().indexOf('view.mapaCurso.MapaItem'+indice.toString())==-1){
+                ButtonManager_OLD.setButton('view.mapaCurso.MapaItem'+indice.toString(),this, onClickMe, .1, 0xcccccc) ;
             }
         } else{
-            ButtonManager.removeButton('view.mapaCurso.MapaItem'+indice.toString());
+            ButtonManager_OLD.removeButton('view.mapaCurso.MapaItem'+indice.toString());
         }
 
            /* if(enabled && !this.enabled && (indice!=-1)){

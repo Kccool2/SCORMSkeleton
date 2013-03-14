@@ -6,20 +6,18 @@
  * To change this template use File | Settings | File Templates.
  */
 package controller {
-import com.greensock.TweenMax;
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
 import flash.display.DisplayObject;
-
 import flash.display.MovieClip;
 import flash.events.KeyboardEvent;
 
 import managers.AssetsManager;
-import managers.ButtonManager;
 import managers.EventManager;
 import managers.LipSyncManager;
 import managers.TimeTickerManager;
+import managers.buttons.ButtonManager_OLD;
 import managers.soundalize.SoundManager;
 
 import model.HudVo;
@@ -27,6 +25,7 @@ import model.HudVo;
 import preloader.PreloaderManager;
 
 import view.Hud;
+import view.YoutubeController;
 
 public class GameController {
     public var mapController:MapController;
@@ -38,6 +37,7 @@ public class GameController {
 
     public static var currentContent:MovieClip;
     public static var currentLipSync:String = '';
+    public static var currentYT:YoutubeController;
     public static var btnsOnContent:Array = [];
     public static var status:String = EMPTY;
 
@@ -72,7 +72,8 @@ public class GameController {
         EventManager.addListener("GameController.onItemClick", "GameController.onItemClick", onMapaCursoClick);
         EventManager.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
        StateController.save.ultimaTela=2;
-       StateController.save.telaAtual=2;
+       StateController.save.telaAtual=0;
+
         startPlay();
         /*popUpController.question.showQuestion("alo teste",onClickQuestion)
          Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
@@ -108,6 +109,8 @@ public class GameController {
         if (status == PLAYING_PAUSE) {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
+            }else if (currentYT!=null){
+                currentYT.play();
             }else{
                 stopLipSync();
                 clearListenertnsContent();
@@ -117,6 +120,8 @@ public class GameController {
         } else {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
+            }else if (currentYT!=null){
+                currentYT.play();
             }
 
         }
@@ -150,6 +155,7 @@ public class GameController {
            if(currentContent.currentFrame>15){
                clearListenertnsContent();
                stopLipSync();
+               stopYoutubeVideo();
                currentContent.gotoAndStop(1);
            } else{
                forceRemoveContent();
@@ -172,6 +178,7 @@ public class GameController {
                     startPlay();
                 } else {
                     stopLipSync();
+                    stopYoutubeVideo();
                     continueAnimation();
                 }
                 break;
@@ -200,6 +207,9 @@ public class GameController {
         if (currentLipSync != '') {
             SoundManager.pause(currentLipSync);
         }
+         if (currentYT!=null){
+            currentYT.pause();
+        }
         status = status == PLAYING||PLAYING_PAUSE ? PLAYING_PAUSE : PAUSED;
         if (currentContent != null) {
             currentContent.stop();
@@ -210,11 +220,14 @@ public class GameController {
     public static function continueAnimation():void {
         if (status == PLAYING_PAUSE) {
             stopLipSync();
+            stopYoutubeVideo();
             clearListenertnsContent();
             currentContent.play();
         } else {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
+            }else if (currentYT!=null){
+                currentYT.play();
             }
 
         }
@@ -225,6 +238,7 @@ public class GameController {
 
     private function forceStop():void {
         stopLipSync();
+        stopYoutubeVideo();
         clearListenertnsContent();
         status = STOPPED;
         if (currentContent != null) {
@@ -234,6 +248,7 @@ public class GameController {
 
     private function forceRemoveContent():void {
         stopLipSync();
+        stopYoutubeVideo();
         clearListenertnsContent();
         var _do:DisplayObject;
         while (hud.content.numChildren > 0) {
@@ -259,8 +274,9 @@ public class GameController {
     }
 
     public function startPlay():void {
+        PreloaderManager.setVisible(true);
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
-            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, PreloaderManager.setVisible)
+            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay},null)
         } else {
             if( LoaderMax.getContent(StateController.telaAtual)!=null){
                 if(   LoaderMax.getContent(StateController.telaAtual).rawContent["content"]!=null){
@@ -276,6 +292,8 @@ public class GameController {
     }
 
     public function doPlay(event:LoaderEvent = null):void {
+
+        PreloaderManager.setVisible(false);
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
         hud.content.addChild(currentContent);
         hud.txtTitle.htmlText = StateController.titutloAtual;
@@ -291,25 +309,12 @@ public class GameController {
     private static function clearListenertnsContent():void {
         for (var i:int = 0; i < btnsOnContent.length; i++) {
             var key:String = btnsOnContent[i];
-            ButtonManager.removeButton(key);
+            ButtonManager_OLD.removeButton(key);
         }
         btnsOnContent = [];
     }
 
-    public static function addButton(key:String, btn:MovieClip, fn:Function):void {
-        if (btnsOnContent.indexOf(btnsOnContent.indexOf(key)) == -1) {
-            btnsOnContent.push(key);
-            ButtonManager.setButton(key, btn, fn, Main.DELAY_BUTTON);
-        }
-    }
 
-    public static function startLipSync(mouth:MovieClip, sound:String):void {
-        stopLipSync();
-        LipSyncManager.enableLipsync(mouth);
-        currentLipSync = sound;
-        SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3', 2000, false, {onComplete: onCompleteLipSync});
-        SoundManager.play(sound, isMute ? 0 : 1);
-    }
 
     public static function stopLipSync():void {
         if (currentLipSync != '') {
@@ -319,9 +324,24 @@ public class GameController {
         }
     }
 
+    public static function stopYoutubeVideo():void {
+        if (currentYT != null) {
+            currentYT.destroyButtonClickHandler();
+            currentYT =null;
+        }
+    }
+
     public static function onCompleteLipSync(o:Object = null) {
         status = PLAYING_PAUSE;
         stopLipSync();
+    }
+
+
+    public static function addVideoYoutube(id:String,  container:MovieClip):void{
+        stopYoutubeVideo();
+        var yt:YoutubeController= new YoutubeController();
+       currentYT = yt;
+        yt.setupPlayerLoader(id,container);
     }
 
     public static function stopCourse():void {
@@ -329,7 +349,22 @@ public class GameController {
         if(currentContent!=null)
         currentContent.stop();
 
-        ButtonManager.addOverEffect(hud.btnNext);
+        ButtonManager_OLD.addOverEffect(hud.btnNext);
+    }
+
+    public static function addButton(key:String, btn:MovieClip, fn:Function):void {
+        if (btnsOnContent.indexOf(btnsOnContent.indexOf(key)) == -1) {
+            btnsOnContent.push(key);
+            ButtonManager_OLD.setButton(key, btn, fn, Main.DELAY_BUTTON);
+        }
+    }
+
+    public static function startLipSync(mouth:MovieClip, sound:String):void {
+        stopLipSync();
+        LipSyncManager.enableLipsync(mouth);
+        currentLipSync = sound;
+        SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3', 2000, false, {onComplete: onCompleteLipSync});
+        SoundManager.play(sound, isMute ? 0 : 1);
     }
 
     public static function finalTela():void {
@@ -343,6 +378,7 @@ public class GameController {
 
     private function onKeyDown(event:KeyboardEvent):void {
         if (event.ctrlKey && event.altKey) {
+            stopYoutubeVideo();
             stopLipSync();
             walkToNextStep();
             startPlay();

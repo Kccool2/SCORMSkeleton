@@ -11,7 +11,8 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-import managers.ButtonManager;
+
+import managers.buttons.ButtonManager_OLD;
 
 public class Question  extends MovieClip{
     public var txtCaption:TextField;
@@ -40,8 +41,8 @@ public class Question  extends MovieClip{
 
 
 
-        ButtonManager.setButton('Question.btnOK',btnOK,onClick,0.3);
-        ButtonManager.setButton('Question.btnCancel',btnCancel,onClick,0.3);
+        ButtonManager_OLD.setButton('Question.btnOK',btnOK,onClick,0.3);
+        ButtonManager_OLD.setButton('Question.btnCancel',btnCancel,onClick,0.3);
 
     }
 
@@ -53,8 +54,8 @@ public class Question  extends MovieClip{
 
 
      public function destroy():void {
-        ButtonManager.removeButton('Question.btnOK');
-        ButtonManager.removeButton('Question.btnCancel');
+         ButtonManager_OLD.removeButton('Question.btnOK');
+         ButtonManager_OLD.removeButton('Question.btnCancel');
     }
     private function onClick(btn:MovieClip):void{
         TweenMax.to(this,0.4,{autoAlpha:0,onComplete:onClickFn, onCompleteParams:[btn ==btnOK]});

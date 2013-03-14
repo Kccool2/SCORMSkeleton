@@ -9,7 +9,7 @@ package view.mapaCurso {
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-import managers.ButtonManager;
+import managers.buttons.ButtonManager_OLD;
 
 public class MapaItemPrincipal extends MovieClip {
     public static const FECHADO:int = 1;
@@ -32,7 +32,7 @@ public class MapaItemPrincipal extends MovieClip {
     public function config(titulo:String, id:int, onClick:Function):void {
         this.id = "view.mapaCurso.MapaItemPrincipal." + id.toString();
         this.onClickFn = onClick;
-        ButtonManager.setButton(this.id, this, onClickMe, .1, 0xcccccc);
+        ButtonManager_OLD.setButton(this.id, this, onClickMe, .1, 0xcccccc);
         this.texto.htmlText=titulo;
     }
 
