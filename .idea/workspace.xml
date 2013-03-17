@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/Desktop.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/_GM50007_A1---Competências Essenciais.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/_GM50007_A1---Construindo_Relacionamentos.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/_GM50007_A1---Foco_no_Resultado.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/barra_cinza.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_avancar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_no_som.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_som.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/bt_voltar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/logo_paqueta_branco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/music_icone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/post-it-02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/docs/Kit_Competencias_Essenciais/post-it.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" afterPath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M00_T03 - F1.mp3" afterPath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M00_T03 - F1.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M01_T06 - F1.mp3" afterPath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M01_T06 - F1.mp3" />
@@ -11,26 +26,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Alert.as" afterPath="$PROJECT_DIR$/application/src/view/Alert.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BaseView.as" afterPath="$PROJECT_DIR$/application/src/view/BaseView.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/BtnPopup.as" afterPath="$PROJECT_DIR$/application/src/view/BtnPopup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Client.as" afterPath="$PROJECT_DIR$/application/src/Client.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Hud.as" afterPath="$PROJECT_DIR$/application/src/view/Hud.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/HudController.as" afterPath="$PROJECT_DIR$/application/src/controller/HudController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Main.as" afterPath="$PROJECT_DIR$/application/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/MapController.as" afterPath="$PROJECT_DIR$/application/src/controller/MapController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" afterPath="$PROJECT_DIR$/application/src/view/MaximizeButton.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/MovieTest.as" afterPath="$PROJECT_DIR$/application/src/view/MovieTest.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/PopUpController.as" afterPath="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/Question.as" afterPath="$PROJECT_DIR$/application/src/view/Question.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/VideoPlayer.as" afterPath="$PROJECT_DIR$/application/src/view/VideoPlayer.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/YoutubeController.as" afterPath="$PROJECT_DIR$/application/src/view/YoutubeController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -320,7 +322,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/bin/scoGame/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20094563">
+            <state line="10" column="31" selection-start="433" selection-end="433" vertical-scroll-proportion="0.24853802">
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1046,7 +1048,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17960088" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17960088" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1249,7 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/bin/scoGame/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20094563">
+        <state line="10" column="31" selection-start="433" selection-end="433" vertical-scroll-proportion="0.24853802">
           <folding>
             <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
