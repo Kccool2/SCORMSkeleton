@@ -341,7 +341,8 @@ public class GameController {
         stopYoutubeVideo();
         var yt:YoutubeController= new YoutubeController();
        currentYT = yt;
-        yt.setupPlayerLoader(id,container);
+       // yt.setupPlayerLoader(id,container);
+        yt.setupPlayerLoader('TaJmqQZHawg',container);
     }
 
     public static function stopCourse():void {
@@ -361,6 +362,7 @@ public class GameController {
 
     public static function startLipSync(mouth:MovieClip, sound:String):void {
         stopLipSync();
+        trace('fala: ', sound);
         LipSyncManager.enableLipsync(mouth);
         currentLipSync = sound;
         SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3', 2000, false, {onComplete: onCompleteLipSync});

@@ -41,11 +41,11 @@ public class YoutubeController {
     private static const YOUTUBE_API_VERSION:String = "2";
     private static const YOUTUBE_API_FORMAT:String = "5";
     private static const WIDESCREEN_ASPECT_RATIO:String = "widescreen";
-    private static const QUALITY_TO_PLAYER_WIDTH:Object = {
-        small: 320,
-        medium: 640,
-        large: 854,
-        hd720: 1280
+    private static const QUALITY_TO_PLAYER_HEIGTH:Object = {
+        small: 240,
+        medium: 360,
+        large: 480,
+        hd720: 720
     };
     private static const STATE_ENDED:Number = 0;
     private static const STATE_PLAYING:Number = 1;
@@ -60,6 +60,8 @@ public class YoutubeController {
     private var leProgress:MovieClip;
     private var leVideoLoaded:MovieClip;
     private var defaultQuality:String = "small";
+
+    private var containersize:Object;
 
     public function YoutubeController() {
         Security.allowDomain(SECURITY_DOMAIN);
@@ -87,12 +89,13 @@ public class YoutubeController {
 
     public function setupPlayerLoader(id:String, container:MovieClip):void {
          leVideoId=id;
+        containersize= { w:container.width,h:container.height};
         leVideoContainer = container;
-        if (leVideoContainer.width >= QUALITY_TO_PLAYER_WIDTH.medium) {
+        if (containersize.h >= QUALITY_TO_PLAYER_HEIGTH.medium) {
             defaultQuality = 'medium';
         }
 
-        if (leVideoContainer.width >= QUALITY_TO_PLAYER_WIDTH.large) {
+        if (containersize.h >= QUALITY_TO_PLAYER_HEIGTH.large) {
             defaultQuality = 'large';
 
         }
@@ -151,13 +154,18 @@ public class YoutubeController {
         leMask.graphics.endFill();
         leVideoContainer.addChild(leMask);
 
-        MonsterDebugger.inspect(leVideoPlayer)
+
+
+
+
+        MonsterDebugger.inspect(leVideoPlayer);
         var atomData:String = LoaderMax.getContent("leYoutubeAPI");
         DebuggerManager.debug("leAtom", LoaderMax.getContent("leYoutubeAPI"))
         // Parse the YouTube API XML response and get the value of the
         // aspectRatio element.
         var atomXml:XML = new XML(atomData);
         var aspectRatios:XMLList = atomXml..*::aspectRatio;
+        trace('teste',aspectRatios.toString() )
         isWidescreen = aspectRatios.toString() == WIDESCREEN_ASPECT_RATIO;
         // Cue up the video once we know whether it's widescreen.
         // Alternatively, you could start playing instead of cueing with
@@ -171,6 +179,7 @@ public class YoutubeController {
         resizePlayer();
         leVideoPlayer.playVideo();
 
+
     }
 
     private function onPlayerReady(event:Event):void {
@@ -183,7 +192,7 @@ public class YoutubeController {
 
     private function updatePlayer(e:Event):void {
         leVideoLoaded.width = (leVideoPlayer.getVideoBytesLoaded() / leVideoPlayer.getVideoBytesTotal()) * leMask.width;
-       trace(leVideoPlayer.getVideoBytesLoaded(),leVideoPlayer.getVideoBytesTotal())
+     //  trace(leVideoPlayer.getVideoBytesLoaded(),leVideoPlayer.getVideoBytesTotal())
         //sets the fullness ratio
         leProgress.width = (leVideoPlayer.getCurrentTime() / leVideoPlayer.getDuration()) * leMask.width;
     }
@@ -216,41 +225,46 @@ public class YoutubeController {
     }
 
     private function resizePlayer():void {
-        var newWidth:Number = QUALITY_TO_PLAYER_WIDTH[defaultQuality];
+        var newWidth:Number =containersize.w;//0;
 
-        var newHeight:Number;
-
-        if (isWidescreen) {
+        var newHeight:Number= containersize.h;//QUALITY_TO_PLAYER_HEIGTH[defaultQuality];
+        trace("size:", containersize.w, containersize.h,isWidescreen)
+       if (isWidescreen) {
             // Widescreen videos (usually) fit into a 16:9 player.
-            newHeight = newWidth * 9 / 16;
+           newHeight = newWidth *(9 / 16);
         } else {
             // Non-widescreen videos fit into a 4:3 player.
-            newHeight = newWidth * 3 / 4;
+           newHeight = newWidth *( 3 / 4);
         }
 
         // trace("isWidescreen is", isWidescreen, ". Size:", newWidth, newHeight);
+        leVideoPlayer.scaleX = 1;
+        leVideoPlayer.scaleY = 1;
         leVideoPlayer.setSize(newWidth, newHeight);
+       // leVideoPlayer.width=newWidth;
+       // leVideoPlayer.height=newHeight;
+
 
         // Center the resized player on the stage.
         leVideoPlayer.x = 0;//(leVideoContainer.width - newWidth) / 2;
         leVideoPlayer.y = 0;//(leVideoContainer.height - newHeight) / 2;
 
         leMask.graphics.clear();
-        leMask.graphics.beginFill(0xff0000, 0.0);
+        leMask.graphics.beginFill(0xff0000, 0.3);
         leMask.graphics.drawRect(0, 0, newWidth, newHeight);
         leMask.graphics.endFill();
 
         leVideoLoaded.graphics.clear();
         leVideoLoaded.graphics.beginFill(0x333333, 1);
-        leVideoLoaded.graphics.drawRect(0, 0, leVideoPlayer.width, 5);
+        leVideoLoaded.graphics.drawRect(0, 0, containersize.w, 5);
         leVideoLoaded.graphics.endFill();
-        leVideoContainer.addChild(leVideoLoaded);
+
 
         leProgress.graphics.clear();
         leProgress.graphics.beginFill(0xffffff, 1);
-        leProgress.graphics.drawRect(0, 0, leVideoPlayer.width, 3);
+        leProgress.graphics.drawRect(0, 0, containersize.w, 3);
         leProgress.graphics.endFill();
-        leVideoContainer.addChild(leProgress);
+
 
         leMask.x = leVideoPlayer.x;
         leMask.y = leVideoPlayer.y;
