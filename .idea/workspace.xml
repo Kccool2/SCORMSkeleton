@@ -3,32 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" afterPath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M00_T03  - F3.mp3" afterPath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M00_T03  - F3.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M02_T10 - F1.mp3" afterPath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M02_T10 - F1.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SWC.swc" afterPath="$PROJECT_DIR$/application/libs/SWC.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M00_T01.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T05.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T05.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T05.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T05.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T06.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T06.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T07.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M01_T07.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T07.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M01_T07.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T01.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T01.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T01.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T01.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T07.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T07.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T07.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T07.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T09.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T09.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T09.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T09.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T14.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M02_T14.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T14.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M02_T14.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M04_T17.fla" afterPath="$PROJECT_DIR$/application/fla/telas/paqueta_GM50001_M04_T17.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M04_T17.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/telas/paqueta_GM50001_M04_T17.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/YoutubeController.as" afterPath="$PROJECT_DIR$/application/src/view/YoutubeController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.php" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.php" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +17,7 @@
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360364477011" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
-    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363380029760" ignored="false" />
+    <file path="/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363486777509" ignored="false" />
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
     <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363383515454" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
@@ -286,7 +265,25 @@
       <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="7" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.34633029">
+            <state line="75" column="71" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.6319648">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/bin/scoGame/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="475" selection-end="475" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/bin/scoGame/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="29" selection-start="431" selection-end="431" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -314,15 +311,6 @@
         <entry file="file://$PROJECT_DIR$/application/src/view/YoutubeController.as">
           <provider selected="true" editor-type-id="text-editor">
             <state line="252" column="47" selection-start="9149" selection-end="9149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hud.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/src/view/Hud.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="29" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -375,8 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/bin/scoGame/index.html" />
-        <option value="$PROJECT_DIR$/application/src/Client.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/assets.xml" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
         <option value="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
@@ -390,6 +376,8 @@
         <option value="$PROJECT_DIR$/application/src/LeYoutube.as" />
         <option value="$PROJECT_DIR$/application/src/view/VideoPlayer.as" />
         <option value="$PROJECT_DIR$/application/src/view/YoutubeController.as" />
+        <option value="$PROJECT_DIR$/application/bin/scoGame/index.html" />
+        <option value="$PROJECT_DIR$/application/bin/scoGame/index.php" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
       </list>
     </option>
@@ -676,6 +664,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCORMSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCORMSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scoGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -972,7 +992,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-320" width="1936" height="1066" extended-state="6" />
+    <frame x="1358" y="-320" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -987,7 +1007,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17960088" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17960088" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1082,27 +1102,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItemPrincipal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="25" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/view/mapaCurso/MapaItem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/model/HudVo.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="243" selection-end="243" vertical-scroll-proportion="0.10702341">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="85" selection-start="913" selection-end="937" vertical-scroll-proportion="0.0">
@@ -1183,9 +1182,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="431" selection-end="431" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="475" selection-end="475" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bin/scoGame/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="530" selection-end="530" vertical-scroll-proportion="0.3230994">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="7" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.34633029">
+        <state line="75" column="71" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.6319648">
           <folding />
         </state>
       </provider>

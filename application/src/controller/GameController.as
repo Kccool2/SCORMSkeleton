@@ -73,7 +73,7 @@ public class GameController {
         EventManager.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
        StateController.save.ultimaTela=2;
        StateController.save.telaAtual=0;
-
+        PreloaderManager.setTextLabel('Aguarde, carregando nova página.');
         startPlay();
         /*popUpController.question.showQuestion("alo teste",onClickQuestion)
          Main.mainStage.addEventListener(MouseEvent.MOUSE_WHEEL, play);
