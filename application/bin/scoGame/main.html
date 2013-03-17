@@ -7,8 +7,8 @@
 	<script>
 		/* <![CDATA[ */
 			_isSCORM = true;
-			_flash_width = 980;
-			_flash_height = 600;
+			_flash_width = 869;
+			_flash_height = 540;
 		/* ]]> */
 	</script>
 	<script type="text/javascript" src="../shared/classyJSON.js"></script>
@@ -19,8 +19,8 @@
 	<script type="text/javascript" src="../shared/jquery.js"></script>
 	<style>
 		#flashcontent {
-			width: 1000px;
-			height: 640px;
+			width: 869px;
+			height: 540px;
 			display: block;
 
 		}
@@ -29,7 +29,7 @@
 		}
 		#playermessage {
 			font: 26px Arial, Sans-serif;
-			width: 1000px;
+			width: 869px;
 			display: block;
 			color: #ffffff;
 			margin: 0 auto;
@@ -37,7 +37,7 @@
 		}
 		h1 {
 			font: 26px Arial, Sans-serif;
-			width: 1000px;
+			width: 869px;
 			display: block;
 			color: #000000;
 			margin: 0 auto;
@@ -48,7 +48,7 @@
 		}
 
 		body {
-			background: #0066a0 url('img/repeater.png') ;
+			background: #0066a0 url('img/bg.png') ;
 
 		}
 		body, html {
@@ -78,14 +78,14 @@
 		params.allowscriptaccess = "always";
 		params.quality="high" ;
 		params.swliveconnect="true";
-		params.wmode="transparent";
+		//params.wmode="transparent";
 		var attributes = {};
 		attributes.id ="main";
 		attributes.name = "main";
 
 		swfobject.embedSWF("main.swf", "flashcontent", _flash_width, _flash_height, "10", "expressInstall.swf", flashvars, params, attributes);
 	</script>
-	<textarea id="debugText" name="debugText" rows="12" cols="80" style="display: none"></textarea>
+	<textarea id="debugText" name="debugText" rows="12" cols="80" style="display: block"></textarea>
 	<script language="JavaScript">
 	/* <![CDATA[ */
 		var jsReady = false;

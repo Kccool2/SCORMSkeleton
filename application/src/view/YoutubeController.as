@@ -6,26 +6,18 @@
  * To change this template use File | Settings | File Templates.
  */
 package view {
-import ToolLib.ToolMath;
-
 import com.demonsters.debugger.MonsterDebugger;
-import com.fraktalo.SCORM.SCORMInteracitions;
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
 import flash.display.DisplayObject;
-
 import flash.display.MovieClip;
 import flash.events.Event;
 import flash.events.IOErrorEvent;
 import flash.events.MouseEvent;
-import flash.net.URLLoader;
 import flash.net.URLRequest;
 import flash.net.URLVariables;
-
 import flash.system.Security;
-
-import flashx.textLayout.container.TextContainerManager;
 
 import managers.AssetsManager;
 import managers.DebuggerManager;

@@ -48,7 +48,7 @@ public class Main extends MovieClip {
 
 
     /*----------------------------PLEASE CONFIGURE THIS VARIABLES---------------------*/
-    private var gameName:String = "Game Name";
+    private var gameName:String = "Paquetá";
     private var version:String = "1.0.0";
     private var date:String = "12/12/1998 - 18:00";
     private var serverTest:String = "192.168.0.5"; //can be empty

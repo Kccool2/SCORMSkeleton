@@ -11,7 +11,6 @@ import com.greensock.TweenMax;
 import flash.display.MovieClip;
 import flash.text.TextField;
 
-
 import managers.buttons.ButtonManager_OLD;
 
 public class Question  extends MovieClip{

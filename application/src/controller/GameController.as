@@ -71,8 +71,8 @@ public class GameController {
 
         EventManager.addListener("GameController.onItemClick", "GameController.onItemClick", onMapaCursoClick);
         EventManager.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
-       StateController.save.ultimaTela=2;
-       StateController.save.telaAtual=0;
+        // StateController.save.ultimaTela=2;
+        // StateController.save.telaAtual=7;
         PreloaderManager.setTextLabel('Aguarde, carregando nova página.');
         startPlay();
         /*popUpController.question.showQuestion("alo teste",onClickQuestion)
@@ -109,9 +109,9 @@ public class GameController {
         if (status == PLAYING_PAUSE) {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
-            }else if (currentYT!=null){
+            } else if (currentYT != null) {
                 currentYT.play();
-            }else{
+            } else {
                 stopLipSync();
                 clearListenertnsContent();
                 currentContent.play();
@@ -120,7 +120,7 @@ public class GameController {
         } else {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
-            }else if (currentYT!=null){
+            } else if (currentYT != null) {
                 currentYT.play();
             }
 
@@ -152,16 +152,16 @@ public class GameController {
     public function clickPrev():void {
 
         if (StateController.save.telaAtual > 0) {
-           if(currentContent.currentFrame>15){
-               clearListenertnsContent();
-               stopLipSync();
-               stopYoutubeVideo();
-               currentContent.gotoAndStop(1);
-           } else{
-               forceRemoveContent();
-               StateController.save.telaAtual--;
-           }
-        }else{
+            if (currentContent.currentFrame > 15) {
+                clearListenertnsContent();
+                stopLipSync();
+                stopYoutubeVideo();
+                currentContent.gotoAndStop(1);
+            } else {
+                forceRemoveContent();
+                StateController.save.telaAtual--;
+            }
+        } else {
             forceRemoveContent();
         }
         startPlay();
@@ -207,10 +207,10 @@ public class GameController {
         if (currentLipSync != '') {
             SoundManager.pause(currentLipSync);
         }
-         if (currentYT!=null){
+        if (currentYT != null) {
             currentYT.pause();
         }
-        status = status == PLAYING||PLAYING_PAUSE ? PLAYING_PAUSE : PAUSED;
+        status = status == PLAYING || PLAYING_PAUSE ? PLAYING_PAUSE : PAUSED;
         if (currentContent != null) {
             currentContent.stop();
         }
@@ -226,13 +226,12 @@ public class GameController {
         } else {
             if (currentLipSync != '') {
                 SoundManager.play(currentLipSync)
-            }else if (currentYT!=null){
+            } else if (currentYT != null) {
                 currentYT.play();
             }
 
         }
         status = PLAYING;
-
 
     }
 
@@ -263,9 +262,10 @@ public class GameController {
 
     private function walkToNextStep():void {
         StateController.save.telaAtual++;
+
         if (StateController.qtyTelas == StateController.save.telaAtual)   StateController.save.telaAtual--;
         if (StateController.save.ultimaTela < StateController.save.telaAtual)StateController.save.ultimaTela = StateController.save.telaAtual;
-
+        StateController.saveGame();
     }
 
     public function clickPlay(isPlaying:Boolean):void {
@@ -276,10 +276,10 @@ public class GameController {
     public function startPlay():void {
         PreloaderManager.setVisible(true);
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
-            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay},null)
+            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, null)
         } else {
-            if( LoaderMax.getContent(StateController.telaAtual)!=null){
-                if(   LoaderMax.getContent(StateController.telaAtual).rawContent["content"]!=null){
+            if (LoaderMax.getContent(StateController.telaAtual) != null) {
+                if (LoaderMax.getContent(StateController.telaAtual).rawContent["content"] != null) {
                     forceRemoveContent();
                     stopCourse();
                     LoaderMax.getContent(StateController.telaAtual).rawContent["content"].gotoAndStop(1);
@@ -297,12 +297,11 @@ public class GameController {
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
         hud.content.addChild(currentContent);
         hud.txtTitle.htmlText = StateController.titutloAtual;
-        hud.txtTitle2.htmlText =StateController.titutlo2Atual;
+        hud.txtTitle2.htmlText = StateController.titutlo2Atual;
         hud.txtTelas.htmlText = StateController.telaAtual + ' - ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
-        hud.txtPagina.htmlText ='Página: '+ (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
+        hud.txtPagina.htmlText = 'Página: ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
         status = PLAYING;
         currentContent.play();
-
 
     }
 
@@ -313,8 +312,6 @@ public class GameController {
         }
         btnsOnContent = [];
     }
-
-
 
     public static function stopLipSync():void {
         if (currentLipSync != '') {
@@ -327,7 +324,7 @@ public class GameController {
     public static function stopYoutubeVideo():void {
         if (currentYT != null) {
             currentYT.destroyButtonClickHandler();
-            currentYT =null;
+            currentYT = null;
         }
     }
 
@@ -336,19 +333,18 @@ public class GameController {
         stopLipSync();
     }
 
-
-    public static function addVideoYoutube(id:String,  container:MovieClip):void{
+    public static function addVideoYoutube(id:String, container:MovieClip):void {
         stopYoutubeVideo();
-        var yt:YoutubeController= new YoutubeController();
-       currentYT = yt;
-       // yt.setupPlayerLoader(id,container);
-        yt.setupPlayerLoader('TaJmqQZHawg',container);
+        var yt:YoutubeController = new YoutubeController();
+        currentYT = yt;
+        // yt.setupPlayerLoader(id,container);
+        yt.setupPlayerLoader('TaJmqQZHawg', container);
     }
 
     public static function stopCourse():void {
         status = PLAYING_PAUSE;
-        if(currentContent!=null)
-        currentContent.stop();
+        if (currentContent != null)
+            currentContent.stop();
 
         ButtonManager_OLD.addOverEffect(hud.btnNext);
     }
