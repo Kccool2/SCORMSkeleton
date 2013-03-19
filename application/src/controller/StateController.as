@@ -9,6 +9,7 @@ package controller {
 import ToolLib.CompressUtil;
 
 import com.adobe.serialization.json.JSON;
+import com.demonsters.debugger.MonsterDebugger;
 import com.fraktalo.SCORM.SCORMLessonStatus;
 import com.fraktalo.SCORM.SCORMManager;
 import com.fraktalo.SCORM.events.ScormEventCommit;
@@ -87,7 +88,7 @@ public class StateController {
         scorm.addEventListener(ScormEventInitialize.TYPE, onInitialize);
         scorm.addEventListener(ScormEventCommit.TYPE, onCommit);
         scorm.addEventListener(ScormEventTerminate.TYPE, onTerminate);
-        DebuggerManager.debug("isSCORM",EnvironmentManager.isSCORM)
+        DebuggerManager.debug("isSCORM",EnvironmentManager.isSCORM);
         scorm.initialize(DebuggerManager.debug,EnvironmentManager.isSCORM?"":offlineJSON,PreloaderManager.setVisible);
 
 
@@ -109,8 +110,9 @@ public class StateController {
 
     private function onInitialize(event : ScormEventInitialize) : void {
         save =  new SaveObject();
+
         if(scorm.cmi.suspend_data!=''){
-            var leObj:Object =  JSON.encode(SerializerManager.decompress(scorm.cmi.suspend_data));
+            var leObj:Object =  JSON.decode(CompressUtil.decompress(scorm.cmi.suspend_data));
 
             save= SerializerManager.convertToOriginalObject(leObj);
 
@@ -125,15 +127,15 @@ public class StateController {
     public static function saveGame():void {
         PreloaderManager.setVisible(true);
         var o:Object= SerializerManager.convertToSerializableObject(save);
-        var srlzd:String =   SerializerManager.compress(JSON.encode(o));
-        DebuggerManager.debug("daasda",o);
+        var srlzd:String =   CompressUtil.compress(JSON.encode(o));
+
         scorm.cmi.core.score.max="100";
         scorm.cmi.core.score.min="0";
         var vlr:int = ((save.ultimaTela*100)/gameData.telas.length);
         if(vlr>95)vlr = 100;
         scorm.cmi.core.score.raw= vlr.toFixed(2);
         scorm.cmi.suspend_data= srlzd;
-        DebuggerManager.debug("daasda", scorm.cmi.suspend_data);
+
         scorm.cmi.core.lesson_status =save.ultimaTela==gameData.telas.length-1? SCORMLessonStatus.COMPLETED:SCORMLessonStatus.INCOMPLETE;
         scorm.commit();
     }

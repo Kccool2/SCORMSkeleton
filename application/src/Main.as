@@ -50,7 +50,7 @@ public class Main extends MovieClip {
     /*----------------------------PLEASE CONFIGURE THIS VARIABLES---------------------*/
     private var gameName:String = "Paquetá";
     private var version:String = "1.0.0";
-    private var date:String = "12/12/1998 - 18:00";
+    private var date:String = "19/03/2013 - 12:00";
     private var serverTest:String = "192.168.0.5"; //can be empty
     private var allowedDomain:String = "*";
     private var hasCustomPreloader:Boolean = true;
@@ -82,8 +82,8 @@ public class Main extends MovieClip {
         Security.allowInsecureDomain(allowedDomain);
 
         //debuggin mode
-        MonsterDebugger.initialize(this);
-        DebuggerManager.initialize(MonsterDebugger.trace);
+       // MonsterDebugger.initialize(this);
+      //  DebuggerManager.initialize(MonsterDebugger.trace);
 
         //to the Managers get the game dimensions
         Utils.initialize(_mainStage.stageWidth, _mainStage.stageHeight);

@@ -74,18 +74,27 @@
 
 	<script type="text/javascript">
 		var flashvars = {};
+
 		var params = {};
-		params.allowscriptaccess = "always";
-		params.quality="high" ;
-		params.swliveconnect="true";
-		//params.wmode="transparent";
-		var attributes = {};
-		attributes.id ="main";
-		attributes.name = "main";
+        params.quality = "high";
+        params.bgcolor = "#111111";
+        params.play = "true";
+        params.loop = "true";
+        params.wmode = "window";
+        params.scale = "showall";
+        params.menu = "true";
+        params.devicefont = "false";
+        params.salign = "";
+        params.allowscriptaccess = "sameDomain";
+        params.allowFullScreen = "true";
+        var attributes = {};
+        attributes.id = "main";
+        attributes.name = "main";
+        attributes.align = "middle";
 
 		swfobject.embedSWF("main.swf", "flashcontent", _flash_width, _flash_height, "10", "expressInstall.swf", flashvars, params, attributes);
 	</script>
-	<textarea id="debugText" name="debugText" rows="12" cols="80" style="display: block"></textarea>
+	<textarea id="debugText" name="debugText" rows="12" cols="80" style="display: none"></textarea>
 	<script language="JavaScript">
 	/* <![CDATA[ */
 		var jsReady = false;
