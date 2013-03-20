@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Main.as" afterPath="$PROJECT_DIR$/application/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M02_T02 - F1.mp3" afterPath="$PROJECT_DIR$/application/bin/scoGame/falas/GM50001_M02_T02 - F1.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/imsmanifest.xml" afterPath="$PROJECT_DIR$/application/bin/imsmanifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/packagemetadata.xml" afterPath="$PROJECT_DIR$/application/bin/packagemetadata.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363712289482" ignored="false" />
-    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363712363331" ignored="false" />
-    <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363374523932" ignored="false" />
+    <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363722882809" ignored="false" />
+    <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363717087959" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
     <file path="/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363712300007" ignored="false" />
     <file path="/MovieTest.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544496899" ignored="false" />
@@ -21,7 +18,7 @@
     <file path="/HudController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360546550079" ignored="false" />
     <file path="/a.dummy" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363383515454" ignored="false" />
     <file path="/HudBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360544114900" ignored="false" />
-    <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362774271746" ignored="false" />
+    <file path="/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363728752670" ignored="false" />
     <file path="/AssetsManager.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363213827776" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/Utils/src/view/ViewElement.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="/Hud.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136983007" ignored="false" />
@@ -57,25 +54,25 @@
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362769110128" ignored="false" />
     <file path="/HUD.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362769109336" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/model/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502120677" ignored="false" />
-    <file path="/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362502119066" ignored="false" />
+    <file path="/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718502023" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Agenda.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362667578195" ignored="false" />
     <file path="/Agenda.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362667576714" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/quiz/QuizOption.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362510495632" ignored="false" />
     <file path="Z:/FRACTAL/Paqueta_mod_intro_e_mod1/modulo1/bin/scoGame/data/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362518892427" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362604410759" ignored="false" />
-    <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362596316536" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363717093573" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/assets/animaFim/AnimationEndScreem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362597843009" ignored="false" />
     <file path="/AnimationEndScreem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362600286712" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/assets/AnimationEndScreem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037544" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037544" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/data/fisioterapia/data.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362597941709" ignored="false" />
-    <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/main.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362604583530" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/main.swf" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363717116766" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/assets/fechamento/InteracaoFechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362604376082" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/src/com/aennova/model/Fechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037544" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/data/main.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603037545" ignored="false" />
     <file path="/InteracaoFechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362603255513" ignored="false" />
     <file path="$PROJECT_DIR$/../../projetos_eclipse/TEL01/src/view/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772523976" ignored="false" />
-    <file path="/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362772498047" ignored="false" />
+    <file path="/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363722010295" ignored="false" />
     <file path="/MapaCurso.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363136996800" ignored="false" />
     <file path="/MapaItemPrincipal.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363137001767" ignored="false" />
     <file path="/MapaItem.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363137011720" ignored="false" />
@@ -202,6 +199,32 @@
     <file path="$PROJECT_DIR$/../../projetos_php/GM5_Paqueta_Moodle/html/test.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363557230643" ignored="false" />
     <file path="/test.php" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363383746861" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/output/lms/scoGame/main.html" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363713410853" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/HSL2/bin/config.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363715842577" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/IntroductionVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718045852" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/IntroductionAnimationVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718088138" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/HowToPlayVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718101140" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/ConteudoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718192471" ignored="false" />
+    <file path="/ConteudoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718189726" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/QuizVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718278093" ignored="false" />
+    <file path="/QuizVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718274068" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/RespostaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718547196" ignored="false" />
+    <file path="/RespostaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718538613" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/ImpactoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718506720" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/model/ArremessoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718732646" ignored="false" />
+    <file path="/ArremessoVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718732646" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/controller/CTE.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718997565" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363720792067" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/controller/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363718997565" ignored="false" />
+    <file path="/Abertura.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363721148859" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/view/Abertura.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363721636577" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/view/ComoJogar.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363722043435" ignored="false" />
+    <file path="/ComoJogar.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363721629269" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363721716645" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/view/Elearning.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363726785756" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/view/Fechamento.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363726659900" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/src/view/PopUp.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363726823643" ignored="false" />
+    <file path="/PopUp.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363726792390" ignored="false" />
+    <file path="$PROJECT_DIR$/../../projetos_eclipse/SHI01/bin/app/data/assets.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1363728755599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1008,7 +1031,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1016,7 +1039,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30684328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30684328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />

@@ -9,7 +9,7 @@
   </metadata>
   <organizations default="Fraktalo">
     <organization identifier="Fraktalo">
-      <title>Game</title>
+      <title>Competências Essenciais</title>
       <item identifier="GAME1" identifierref="FraktaloGame">
         <title>Curso </title>
       </item>
