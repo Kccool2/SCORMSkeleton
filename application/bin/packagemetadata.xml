@@ -2,7 +2,7 @@
 <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
   <general>
     <title>
-      <langstring>Competências Essenciais</langstring>
+      <langstring>E-learning GM5</langstring>
     </title>
     <description>
       <langstring>Description</langstring>
@@ -26,13 +26,13 @@
           <langstring xml:lang="x-none">Projectv1.0</langstring>
         </source>
         <value>
-          <langstring xml:lang="x-none">Competências Essenciais</langstring>
+          <langstring xml:lang="x-none">E-learning GM5</langstring>
         </value>
       </role>
       <centity>
         <vcard>
 BEGIN:VCARD
-FN:Competências Essenciais
+FN:E-learning GM5
 
 END:VCARD</vcard>
       </centity>
