@@ -22,8 +22,10 @@ public class Hud  extends BaseView{
     public var btnPlay:MovieClip;
     public var btnSound:MovieClip;
     public var content:MovieClip;
-    public var txtTitle:TextField;
-    public var txtTitle2:TextField;
+    public var base:MovieClip;
+    public var topo:MovieClip;
+
+
     public var txtPagina:TextField;
     public var txtTelas:TextField;
 
@@ -34,6 +36,20 @@ public class Hud  extends BaseView{
 
     public function Hud() {
          btnSound.gotoAndStop(1);
+
+        base.gotoAndStop(1);
+        topo.gotoAndStop(1);
+         btnHome .gotoAndStop(1);
+         btnPrev .gotoAndStop(1);
+         btnNext .gotoAndStop(1);
+         btnSound.icone.gotoAndStop(1);
+
+    }
+    public function set txtTitle(v:String):void{
+        topo.txtTitle.htmlText= v;
+    }
+    public function set txtTitle2(v:String):void{
+        topo.txtTitle2.htmlText= v;
     }
     override public function config(vo:*, onCompleteFn:Function = null, ...rest):void {
         super.config(vo, onCompleteFn, rest);
@@ -59,6 +75,17 @@ public class Hud  extends BaseView{
         }
     }
 
+    public function refresh(id:String):void{
+        if(id!=""){
+            base.gotoAndStop(id);
+            topo.gotoAndStop(id);
+            btnHome .gotoAndStop(id);
+            btnPrev .gotoAndStop(id);
+            btnNext .gotoAndStop(id);
+            btnSound.icone.gotoAndStop(id);
+        }
+
+    }
 
     public function showHud(_onComplete:Function = null):void {
         TweenMax.to(this, 0.4, {autoAlpha: 1, onComplete: _onComplete});

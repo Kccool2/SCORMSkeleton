@@ -11,6 +11,9 @@
             <entry library-name="libs" library-level="project">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="FLVPlaybackAS3_2.5" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="flex_sdk_4.1.0.16076A" />
         </dependencies>
@@ -23,6 +26,9 @@
         <dependencies target-player="10.0">
           <entries>
             <entry library-name="libs" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="FLVPlaybackAS3_2.5" library-level="project">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -44,6 +50,7 @@
     <orderEntry type="jdk" jdkName="flex_sdk_4.1.0.16076A" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="libs" level="project" />
+    <orderEntry type="library" exported="" name="FLVPlaybackAS3_2.5" level="project" />
   </component>
 </module>
 

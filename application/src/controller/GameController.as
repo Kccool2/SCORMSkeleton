@@ -9,6 +9,8 @@ package controller {
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
+import fl.video.VideoPlayer;
+
 import flash.display.DisplayObject;
 import flash.display.MovieClip;
 import flash.events.KeyboardEvent;
@@ -25,6 +27,7 @@ import model.HudVo;
 import preloader.PreloaderManager;
 
 import view.Hud;
+import view.VideoPlayerSCORM;
 import view.YoutubeController;
 
 public class GameController {
@@ -37,7 +40,7 @@ public class GameController {
 
     public static var currentContent:MovieClip;
     public static var currentLipSync:String = '';
-    public static var currentYT:YoutubeController;
+    public static var currentYT:VideoPlayerSCORM;
     public static var btnsOnContent:Array = [];
     public static var status:String = EMPTY;
 
@@ -153,10 +156,12 @@ public class GameController {
 
         if (StateController.save.telaAtual > 0) {
             if (currentContent.currentFrame > 15) {
-                clearListenertnsContent();
+                forceRemoveContent();
+                StateController.save.telaAtual--;
+               /* clearListenertnsContent();
                 stopLipSync();
                 stopYoutubeVideo();
-                currentContent.gotoAndStop(1);
+                currentContent.gotoAndStop(1);  */
             } else {
                 forceRemoveContent();
                 StateController.save.telaAtual--;
@@ -292,12 +297,12 @@ public class GameController {
     }
 
     public function doPlay(event:LoaderEvent = null):void {
-
+        hud.refresh(StateController.hudSkin)
         PreloaderManager.setVisible(false);
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
         hud.content.addChild(currentContent);
-        hud.txtTitle.htmlText = StateController.titutloAtual;
-        hud.txtTitle2.htmlText = StateController.titutlo2Atual;
+        hud.txtTitle = StateController.titutloAtual;
+        hud.txtTitle2 = StateController.titutlo2Atual;
         hud.txtTelas.htmlText = StateController.telaAtual + ' - ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
         hud.txtPagina.htmlText = 'Página: ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
         status = PLAYING;
@@ -335,10 +340,10 @@ public class GameController {
 
     public static function addVideoYoutube(id:String, container:MovieClip):void {
         stopYoutubeVideo();
-        var yt:YoutubeController = new YoutubeController();
+        var yt:VideoPlayerSCORM = new VideoPlayerSCORM();
         currentYT = yt;
-        // yt.setupPlayerLoader(id,container);
-        yt.setupPlayerLoader('TaJmqQZHawg', container);
+      yt.setupPlayerLoader(id,container);
+       // yt.setupPlayerLoader('TaJmqQZHawg', container);
     }
 
     public static function stopCourse():void {
@@ -375,11 +380,9 @@ public class GameController {
     }
 
     private function onKeyDown(event:KeyboardEvent):void {
-        if (event.ctrlKey && event.altKey) {
-            stopYoutubeVideo();
-            stopLipSync();
-            walkToNextStep();
-            startPlay();
+        if (event.ctrlKey && event.altKey ) {
+           forceStop();
+           walkToNextStep();
         }
     }
 }

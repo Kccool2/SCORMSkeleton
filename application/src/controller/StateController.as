@@ -77,6 +77,9 @@ public class StateController {
     public static function get telaAtual():String{
         return gameData.telas[save.telaAtual].tela;
     }
+    public static function get hudSkin():String{
+        return gameData.telas[save.telaAtual].skin ||"";
+    }
     public static function get qtyTelas():int{
         return gameData.telas.length;
     }

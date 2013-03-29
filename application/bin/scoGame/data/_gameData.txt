@@ -3,7 +3,7 @@
       [
  	 {"tela":"paqueta_GM50001_M00_T01", "titulo": "Introdução", "titulo2": "Parte 1/3" },
 	 {"tela":"paqueta_GM50001_M00_T02", "titulo": "Introdução", "titulo2": "Parte 2/3" },
-	 {"tela":"paqueta_GM50001_M00_T03", "titulo": "Introdução", "titulo2": "Parte 3/3" },
+	 {"tela":"paqueta_GM50001_M00_T03", "titulo": "Introdução", "titulo2": "Parte 3/3"},
 
 	 {"tela":"paqueta_GM50001_M01_T01" , "titulo": "As Competências Essenciais", "titulo2": "O nosso DNA 1/3" },
 	 {"tela":"paqueta_GM50001_M01_T02" , "titulo": "As Competências Essenciais", "titulo2": "O nosso DNA 2/3" },
@@ -14,7 +14,7 @@
 	 {"tela":"paqueta_GM50001_M01_T07" , "titulo": "As Competências Essenciais", "titulo2": "Nossas Competências Essenciais" },
 	 {"tela":"paqueta_GM50001_M01_T08" , "titulo": "As Competências Essenciais", "titulo2": "Revisão" },
 
-	 {"tela":"paqueta_GM50001_M02_T01" , "titulo": "Construindo Relacionamentos", "titulo2": "Relacionamentos e cooperação" },
+	 {"tela":"paqueta_GM50001_M02_T01" , "titulo": "Construindo Relacionamentos", "titulo2": "Relacionamentos e cooperação"  ,"skin":"construindo" },
 	 {"tela":"paqueta_GM50001_M02_T02" , "titulo": "Construindo Relacionamentos", "titulo2": "A competitividade" },
 	 {"tela":"paqueta_GM50001_M02_T03" , "titulo": "Construindo Relacionamentos", "titulo2": "Times e redes" },
 	 {"tela":"paqueta_GM50001_M02_T04" , "titulo": "Construindo Relacionamentos", "titulo2": "Integração e colaboração" },
@@ -31,7 +31,7 @@
 	 {"tela":"paqueta_GM50001_M02_T15" , "titulo": "Construindo Relacionamentos", "titulo2": "O seu papel" },
 	 {"tela":"paqueta_GM50001_M02_T16" , "titulo": "Construindo Relacionamentos", "titulo2": "Revisão" },
 
-	 {"tela":"paqueta_GM50001_M03_T01" , "titulo": "Visão de Ponta a Ponta", "titulo2": "O Individual e o todo" },
+	 {"tela":"paqueta_GM50001_M03_T01" , "titulo": "Visão de Ponta a Ponta", "titulo2": "O Individual e o todo"  ,"skin":"visao"},
 	 {"tela":"paqueta_GM50001_M03_T02" , "titulo": "Visão de Ponta a Ponta", "titulo2": "Você não está isolado" },
 	 {"tela":"paqueta_GM50001_M03_T03" , "titulo": "Visão de Ponta a Ponta", "titulo2": "A visão e o todo" },
 	 {"tela":"paqueta_GM50001_M03_T04" , "titulo": "Visão de Ponta a Ponta", "titulo2": "Compreendendo a cadeia" },
@@ -42,7 +42,7 @@
 	 {"tela":"paqueta_GM50001_M03_T09" , "titulo": "Visão de Ponta a Ponta", "titulo2": "Você e a cadeia" },
 	 {"tela":"paqueta_GM50001_M03_T10" , "titulo": "Visão de Ponta a Ponta", "titulo2": "Revisão" },
 
-	 {"tela":"paqueta_GM50001_M04_T01" , "titulo": "Foco no Resultado", "titulo2": "Comprometimento" },
+	 {"tela":"paqueta_GM50001_M04_T01" , "titulo": "Foco no Resultado", "titulo2": "Comprometimento"  ,"skin":"foco" },
 	 {"tela":"paqueta_GM50001_M04_T02" , "titulo": "Foco no Resultado", "titulo2": "Compromisso com objetivos e resultados 1/5" },
 	 {"tela":"paqueta_GM50001_M04_T03" , "titulo": "Foco no Resultado", "titulo2": "Compromisso com objetivos e resultados 2/5" },
 	 {"tela":"paqueta_GM50001_M04_T04" , "titulo": "Foco no Resultado", "titulo2": "Compromisso com objetivos e resultados 3/5" },
