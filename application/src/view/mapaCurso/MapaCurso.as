@@ -73,7 +73,7 @@ public class MapaCurso extends MovieClip {
                 mapaItensPrincipals.push(ip);
             }
             var mapItem:MapaItem = new MapaItem();
-            mapItem.texto.htmlText = object.titulo2;
+            mapItem.texto.htmlText = 'Pág:<b>'+ (i+1).toString()+'</b> - '+object.titulo2;
             mapItem.config(i, onItemClick);
             mapItem.x = 0;
             mapaItens.push(mapItem);

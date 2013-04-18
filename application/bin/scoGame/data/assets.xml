@@ -11,6 +11,7 @@
         <SWFLoader  url="data/assets/assets.swf"            name="assets"          autoPlay="false"/>
         <SWFLoader  url="data/assets/hud.swf"               name="hud"             autoPlay="false"/>
         <SWFLoader  url="data/assets/mapaCurso.swf"         name="mapaCurso"       sautoPlay="false"/>
+        <SWFLoader  url="data/assets/certificado.swf"         name="certificado"       sautoPlay="false"/>
 
           <!-- <ImageLoader url="data/sounds/lea.jpg" name="lea" width="400" height="316"/>
 

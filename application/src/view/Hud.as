@@ -22,7 +22,8 @@ public class Hud  extends BaseView{
     public var btnPlay:MovieClip;
     public var btnSound:MovieClip;
     public var content:MovieClip;
-    public var base:MovieClip;
+    public var baseHud:MovieClip;
+    public var fundoHud:MovieClip;
     public var topo:MovieClip;
 
 
@@ -35,14 +36,6 @@ public class Hud  extends BaseView{
     public var btns:Array = ['btnHome','btnPrev', 'btnNext', 'btnPlay','btnSound'];
 
     public function Hud() {
-         btnSound.gotoAndStop(1);
-
-        base.gotoAndStop(1);
-        topo.gotoAndStop(1);
-         btnHome .gotoAndStop(1);
-         btnPrev .gotoAndStop(1);
-         btnNext .gotoAndStop(1);
-         btnSound.icone.gotoAndStop(1);
 
     }
     public function set txtTitle(v:String):void{
@@ -55,6 +48,18 @@ public class Hud  extends BaseView{
         super.config(vo, onCompleteFn, rest);
         this.visible=false;
         this.alpha = 0;
+        btnSound.gotoAndStop(1);
+
+        baseHud.gotoAndStop(1);
+        fundoHud.gotoAndStop(1);
+        topo.gotoAndStop(1);
+        btnHome .gotoAndStop(1);
+        btnPrev .gotoAndStop(1);
+        btnNext .gotoAndStop(1);
+        btnSound.icone.gotoAndStop(1);
+
+
+
         this.btnPlay.gotoAndStop(2);
         for (var i:int = 0; i < btns.length; i++) {
             ButtonManager_OLD .setButton("IndexBone."+btns[i],this[btns[i]],this['onClick_'+btns[i]],0.3)
@@ -77,7 +82,8 @@ public class Hud  extends BaseView{
 
     public function refresh(id:String):void{
         if(id!=""){
-            base.gotoAndStop(id);
+            baseHud.gotoAndStop(id);
+            fundoHud.gotoAndStop(id)
             topo.gotoAndStop(id);
             btnHome .gotoAndStop(id);
             btnPrev .gotoAndStop(id);

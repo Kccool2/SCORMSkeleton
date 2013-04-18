@@ -83,7 +83,7 @@ public class Main extends MovieClip {
 
         //debuggin mode
        // MonsterDebugger.initialize(this);
-      //  DebuggerManager.initialize(MonsterDebugger.trace);
+     //  DebuggerManager.initialize(MonsterDebugger.trace);
 
         //to the Managers get the game dimensions
         Utils.initialize(_mainStage.stageWidth, _mainStage.stageHeight);

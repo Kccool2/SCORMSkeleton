@@ -13,7 +13,9 @@ import fl.video.VideoPlayer;
 
 import flash.display.DisplayObject;
 import flash.display.MovieClip;
+import flash.events.Event;
 import flash.events.KeyboardEvent;
+import flash.net.FileReference;
 
 import managers.AssetsManager;
 import managers.EventManager;
@@ -24,16 +26,31 @@ import managers.soundalize.SoundManager;
 
 import model.HudVo;
 
+import org.alivepdf.layout.Mode;
+
+import org.alivepdf.layout.Orientation;
+import org.alivepdf.layout.Position;
+import org.alivepdf.layout.Resize;
+import org.alivepdf.layout.Size;
+import org.alivepdf.layout.Unit;
+
+import org.alivepdf.pdf.PDF;
+import org.alivepdf.saving.Method;
+
 import preloader.PreloaderManager;
+
+import view.Certificado;
+
+import view.Download;
 
 import view.Hud;
 import view.VideoPlayerSCORM;
 import view.YoutubeController;
 
 public class GameController {
-    public var mapController:MapController;
-    public var hudController:HudController;
-    public var popUpController:PopUpController;
+    public static var mapController:MapController;
+    public static var hudController:HudController;
+    public static var popUpController:PopUpController;
 
     public static var ticker:TimeTickerManager;
     public static var hud:Hud;
@@ -41,6 +58,7 @@ public class GameController {
     public static var currentContent:MovieClip;
     public static var currentLipSync:String = '';
     public static var currentYT:VideoPlayerSCORM;
+    public static var currentDownload:Download;
     public static var btnsOnContent:Array = [];
     public static var status:String = EMPTY;
 
@@ -59,6 +77,7 @@ public class GameController {
         hudController = new HudController(hudLayer);
         popUpController = new PopUpController(popupLayer);
         Main.mainStage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
+        LipSyncManager.delay=2;
     }
 
     public function initialize():void {
@@ -158,10 +177,10 @@ public class GameController {
             if (currentContent.currentFrame > 15) {
                 forceRemoveContent();
                 StateController.save.telaAtual--;
-               /* clearListenertnsContent();
-                stopLipSync();
-                stopYoutubeVideo();
-                currentContent.gotoAndStop(1);  */
+                /* clearListenertnsContent();
+                 stopLipSync();
+                 stopYoutubeVideo();
+                 currentContent.gotoAndStop(1);  */
             } else {
                 forceRemoveContent();
                 StateController.save.telaAtual--;
@@ -306,7 +325,9 @@ public class GameController {
         hud.txtTelas.htmlText = StateController.telaAtual + ' - ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
         hud.txtPagina.htmlText = 'Página: ' + (StateController.save.telaAtual + 1).toString() + '/' + StateController.qtyTelas.toString();
         status = PLAYING;
+        StateController.saveGame();
         currentContent.play();
+
 
     }
 
@@ -342,8 +363,8 @@ public class GameController {
         stopYoutubeVideo();
         var yt:VideoPlayerSCORM = new VideoPlayerSCORM();
         currentYT = yt;
-      yt.setupPlayerLoader(id,container);
-       // yt.setupPlayerLoader('TaJmqQZHawg', container);
+        yt.setupPlayerLoader(id,container);
+        // yt.setupPlayerLoader('TaJmqQZHawg', container);
     }
 
     public static function stopCourse():void {
@@ -360,6 +381,20 @@ public class GameController {
             ButtonManager_OLD.setButton(key, btn, fn, Main.DELAY_BUTTON);
         }
     }
+    public static function startDownload(arquivo:String):void{
+        completeDownload();
+        currentDownload= new Download();
+        popUpController.addChildOnPlaceHolderPos(currentDownload,"leDownload",0,0);
+        currentDownload.startDownload('./downloads/'+arquivo,completeDownload);
+    }
+
+    private static function completeDownload(e:Event = null):void{
+        if(currentDownload!=null){
+            currentDownload.destroy();
+            popUpController.removeChildOnPlaceHolder("leDownload");
+            currentDownload=null;
+        }
+    }
 
     public static function startLipSync(mouth:MovieClip, sound:String):void {
         stopLipSync();
@@ -368,6 +403,18 @@ public class GameController {
         currentLipSync = sound;
         SoundManager.addExternalSound(sound, 'falas/' + sound + '.mp3', 2000, false, {onComplete: onCompleteLipSync});
         SoundManager.play(sound, isMute ? 0 : 1);
+    }
+    public static function criarCertificado(bt:MovieClip=null):void {
+
+        var p:PDF = new PDF( Orientation.LANDSCAPE, Unit.MM, Size.A4 );
+        p.addPage();
+        var cdet:Certificado= new Certificado();
+        //Main.instance.addChild(cdet)
+        cdet.nome.text= StateController.scorm.cmi.core.student_name;
+        p.addImage( cdet , new Resize(Mode.RESIZE_PAGE,Position.CENTERED));
+        var file = new FileReference();
+        file.save(p.save( Method.LOCAL ), 'Certificado.pdf');
+
     }
 
     public static function finalTela():void {
@@ -380,9 +427,9 @@ public class GameController {
     }
 
     private function onKeyDown(event:KeyboardEvent):void {
-        if (event.ctrlKey && event.altKey ) {
-           forceStop();
-           walkToNextStep();
+        if (event.ctrlKey && event.altKey &&  (String.fromCharCode(event.keyCode)=="m"||String.fromCharCode(event.keyCode)=="M"  )) {
+
+            StateController.save.ultimaTela=StateController.qtyTelas;
         }
     }
 }

@@ -61,11 +61,11 @@ public class StateController {
     }
 
     public static function getTest(id:String):String {
-        return texts.getData(id);
+        return String(texts.getData(id));
     }
 
     public static function getConfig(id:String):String {
-        return config.getData(id);
+        return String(config.getData(id));
     }
 
     public static function get titutloAtual():String{
@@ -131,15 +131,16 @@ public class StateController {
         PreloaderManager.setVisible(true);
         var o:Object= SerializerManager.convertToSerializableObject(save);
         var srlzd:String =   CompressUtil.compress(JSON.encode(o));
-
         scorm.cmi.core.score.max="100";
         scorm.cmi.core.score.min="0";
-        var vlr:int = ((save.ultimaTela*100)/gameData.telas.length);
+        var vlr:int = ((save.telaAtual*100)/gameData.telas.length);
         if(vlr>95)vlr = 100;
         scorm.cmi.core.score.raw= vlr.toFixed(2);
         scorm.cmi.suspend_data= srlzd;
-
-        scorm.cmi.core.lesson_status =save.ultimaTela==gameData.telas.length-1? SCORMLessonStatus.COMPLETED:SCORMLessonStatus.INCOMPLETE;
+      //  DebuggerManager.debug("ultima tela", save.ultimaTela);
+      //  DebuggerManager.debug("=gameData.telas.length-1", gameData.telas.length-1);
+      //  DebuggerManager.debug("telaAtual", save.telaAtual);
+        scorm.cmi.core.lesson_status =save.telaAtual>=gameData.telas.length-1? SCORMLessonStatus.COMPLETED:SCORMLessonStatus.INCOMPLETE;
         scorm.commit();
     }
 
