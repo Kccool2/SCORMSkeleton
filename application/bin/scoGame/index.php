@@ -18,7 +18,7 @@
 			var flashvars = {};
 			var params = {};
 			params.quality = "high";
-			params.bgcolor = "#111111";
+			params.bgcolor = "#ffffff";
 			params.play = "true";
 			params.loop = "true";
 			params.wmode = "window";
@@ -77,7 +77,7 @@
 				tracearea.val(output);
 		}
 		</script>
-		<textarea id="traceWebTextArea" rows="20" cols="110" style="font: 12px courier new;"></textarea>
+		<textarea id="traceWebTextArea" rows="20" cols="110" style="font: 12px courier new; display:none;"></textarea>
 		
 	</body>
 </html>

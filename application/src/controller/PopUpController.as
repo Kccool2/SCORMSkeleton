@@ -4,7 +4,7 @@ import bases.LayerControllerBase;
 
 import flash.display.MovieClip;
 
-import managers.EventManager;
+import managers.tk.EventManager_OLD;
 
 import view.Alert;
 import view.Question;
@@ -29,7 +29,7 @@ public class PopUpController extends LayerControllerBase {
         this.addChildOnPlaceHolderPos(alert,"PopUpController.alert",0,0);
         this.mapa = new MapaCurso();
         this.addChildOnPlaceHolderPos(mapa,"PopUpController.mapa",0,0);
-        EventManager.addListener('PopUpController.showMapa','PopUpController.showMapa',showMapa);
+        EventManager_OLD.addListener('PopUpController.showMapa','PopUpController.showMapa',showMapa);
     }
     public function showMapa():void{
         mapa.show()

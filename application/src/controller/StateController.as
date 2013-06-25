@@ -15,14 +15,18 @@ import com.fraktalo.SCORM.SCORMManager;
 import com.fraktalo.SCORM.events.ScormEventCommit;
 import com.fraktalo.SCORM.events.ScormEventInitialize;
 import com.fraktalo.SCORM.events.ScormEventTerminate;
+import com.greensock.loading.DataLoader;
 import com.greensock.loading.LoaderMax;
+
+import managers.AssetsManager;
 
 import managers.DataManager;
 import managers.DebuggerManager;
 import managers.EnvironmentManager;
-import managers.EventManager;
+
 import managers.SerializerManager;
 import managers.SerializerManager;
+import managers.tk.EventManager_OLD;
 
 import model.ControleTelaVo;
 import model.SaveObject;
@@ -34,7 +38,7 @@ public class StateController {
     private static var texts:DataManager;
     public static var gameData:ControleTelaVo;
     public static var save:SaveObject;
-
+    public var gameDataName:String='_gameData';
 
     private var serverTest:String = "192.168.0.5";
     public var offlineJSON:String = '{"___id":"1","___propertiesOrder":["suspend_data","objectives","comments","core"],"___className":"com.fraktalo.SCORM.vo.CMI","suspend_data":"","comments":"","core":{"___id":"5","___propertiesOrder":["lesson_location","student_name","session_time","score","lesson_status","total_time","student_id"],"___className":"com.fraktalo.SCORM.vo.Core","student_name":"","lesson_location":"","student_id":"","session_time":"","score":{"___id":"6","___propertiesOrder":["min","raw","max"],"___className":"com.fraktalo.SCORM.vo.Score","min":"","raw":"","max":""},"lesson_status":"","total_time":""},"objectives":{"___className":"Array","___id":"2","___value":[{"___id":"3","___propertiesOrder":["id","score","status"],"___className":"com.fraktalo.SCORM.vo.Objective","id":"","score":{"___id":"6","___propertiesOrder":["min","raw","max"],"___className":"com.fraktalo.SCORM.vo.Score","min":"","raw":"","max":""},"status":""}]}}';
@@ -42,17 +46,15 @@ public class StateController {
 
     public function StateController() {
         var _gameConfig:Object = JSON.decode(LoaderMax.getContent("_gameConfig"));
-        config = new DataManager(_gameConfig, "ConfigMAnager",false);
+        config = new DataManager(_gameConfig, "ConfigManager",false);
         var _gameText:Object = JSON.decode(LoaderMax.getContent("_gameText"));
-        texts = new DataManager(_gameText, "TextsMAnager",false);
-
-        var _gameData:Object = JSON.decode(LoaderMax.getContent("_gameData"));
-        gameData= new ControleTelaVo();
-        gameData.telas=_gameData["telas"];
+        texts = new DataManager(_gameText, "TextsManager",false);
 
 
         //  this.mode =  ConfigController.getConfig("mode");
     }
+
+
 
 
 
@@ -85,16 +87,27 @@ public class StateController {
     }
 
     public function initialize():void {
-
         PreloaderManager.setTextLabel('aguarde...');
+        if(config.getData('modulo')){
+            gameDataName = '_gameData'+config.getData('modulo');
+            AssetsManager.loadDataAssets('data/'+gameDataName+ '.txt', { name:gameDataName, estimatedBytes: 4800, onComplete: continueInitialize });
+        }else{
+            continueInitialize()
+        }
+    }
+
+    public function continueInitialize(r:*=null):void{
+        trace(gameDataName)
+        var _gameData:Object = JSON.decode(LoaderMax.getContent(gameDataName));
+        gameData= new ControleTelaVo();
+        gameData.telas=_gameData["telas"];
+
         scorm =  new SCORMManager();
         scorm.addEventListener(ScormEventInitialize.TYPE, onInitialize);
         scorm.addEventListener(ScormEventCommit.TYPE, onCommit);
         scorm.addEventListener(ScormEventTerminate.TYPE, onTerminate);
         DebuggerManager.debug("isSCORM",EnvironmentManager.isSCORM);
         scorm.initialize(DebuggerManager.debug,EnvironmentManager.isSCORM?"":offlineJSON,PreloaderManager.setVisible);
-
-
     }
 
     private function onTerminate(event : ScormEventTerminate) : void {
@@ -133,7 +146,7 @@ public class StateController {
         var srlzd:String =   CompressUtil.compress(JSON.encode(o));
         scorm.cmi.core.score.max="100";
         scorm.cmi.core.score.min="0";
-        var vlr:int = ((save.telaAtual*100)/gameData.telas.length);
+        var vlr:int = (((save.telaAtual+1)*100)/gameData.telas.length);
         if(vlr>95)vlr = 100;
         scorm.cmi.core.score.raw= vlr.toFixed(2);
         scorm.cmi.suspend_data= srlzd;
@@ -145,7 +158,7 @@ public class StateController {
     }
 
     public function dataLoaded():void {
-        EventManager.dispatch(this, "dataLoaded");
+        EventManager_OLD.dispatch(this, "dataLoaded");
 
     }
 

@@ -26,12 +26,10 @@ import managers.AssetsManager;
 import managers.ClientManager;
 import managers.DebuggerManager;
 import managers.EnvironmentManager;
-import managers.EventManager;
 import managers.soundalize.SoundManager;
+import managers.tk.EventManager_OLD;
 
 import preloader.PreloaderManager;
-
-import view.MaximizeButton;
 
 public class Main extends MovieClip {
     /*------------------------------------------------FORGET THIS VARS -----------------*/
@@ -44,7 +42,7 @@ public class Main extends MovieClip {
     private var _hudLayer:MovieClip;
     private var _popUpLayer:MovieClip;
     private var stateMachine:StateController;
-    private var gameController:GameController;
+    public var gameController:GameController;
 
 
     /*----------------------------PLEASE CONFIGURE THIS VARIABLES---------------------*/
@@ -82,14 +80,15 @@ public class Main extends MovieClip {
         Security.allowInsecureDomain(allowedDomain);
 
         //debuggin mode
-       // MonsterDebugger.initialize(this);
-     //  DebuggerManager.initialize(MonsterDebugger.trace);
+        MonsterDebugger.initialize(this);
+       DebuggerManager.initialize(MonsterDebugger.trace);
 
         //to the Managers get the game dimensions
         Utils.initialize(_mainStage.stageWidth, _mainStage.stageHeight);
 
         //control the resize window game
         ClientManager.initialize(mainStage, this);
+
 
         //identifying the Environment of the game (wem, offline, scorm....)
         EnvironmentManager.initialize(loaderInfo.url, serverTest);
@@ -105,6 +104,7 @@ public class Main extends MovieClip {
             AssetsManager.loadSWFAsset(path, { name: "preloader", estimatedBytes: 4800, onComplete: onLoadPreloader });
         } else {
             PreloaderManager.initialize(this.stage, null);
+
             PreloaderManager.setVisible(true);
             loadXMLAssets();
         }
@@ -122,7 +122,7 @@ public class Main extends MovieClip {
 
     private function onLoadPreloader(loaderEvent:LoaderEvent):void {
         PreloaderManager.initialize(this.stage, LoaderMax.getContent("preloader").rawContent["preLoader"]);
-
+        PreloaderManager.loadingMovie.gotoAndStop('paqueta');
         PreloaderManager.setVisible(true);
 
         loadXMLAssets();
@@ -159,7 +159,7 @@ public class Main extends MovieClip {
     }
 
     private function initializeBase():void {
-        ClientManager.addFullScreenButton(new MaximizeButton());
+       // ClientManager.addFullScreenButton(new MaximizeButton());
 
         //STARTING THE GAME STRUCTURE
         _baseSprite = new Sprite();
@@ -182,12 +182,12 @@ public class Main extends MovieClip {
 
         gameController = new GameController(_mapLayer, _hudLayer, _popUpLayer);
         stateMachine = new StateController();
-        EventManager.addListener('dataLoaded', "dataLoaded", initializeGame);
+        EventManager_OLD.addListener('dataLoaded', "dataLoaded", initializeGame);
         stateMachine.initialize();
     }
 
     private function initializeGame():void {
-        EventManager.removeEventType('dataLoaded');
+        EventManager_OLD.removeEventType('dataLoaded');
         gameController.initialize();
 
     }

@@ -12,11 +12,11 @@ import controller.StateController;
 
 import flash.display.MovieClip;
 
-import managers.EventManager;
 import managers.buttons.ButtonManager_OLD;
+import managers.tk.EventManager_OLD;
 
 import view.scroller.Scroll;
-import view.scroller.ScrollParameter;
+import view.scroller.ScrollParameters;
 
 public class MapaCurso extends MovieClip {
     public var container:MovieClip;
@@ -30,26 +30,28 @@ public class MapaCurso extends MovieClip {
     private var initialized:Boolean = false;
     private var scroller:Scroll;
 
+    private var multiplesTitles:Boolean = false;
+
     public function MapaCurso() {
         content = new MovieClip();
         mapaItens = [];
         mapaItensPrincipals = [];
-        this.visible=false;
-        this.alpha=0;
+        this.visible = false;
+        this.alpha = 0;
         this.addChild(content);
     }
 
-    public function close(bt:MovieClip=null):void {
+    public function close(bt:MovieClip = null):void {
         TweenMax.to(this, 0.4, {autoAlpha: 0});
-        if(bt!=null){
-            TweenMax.delayedCall(.4,EventManager.dispatch,[this, "GameController.onMapaFecharClick",bt]);
+        if (bt != null) {
+            TweenMax.delayedCall(.4, EventManager_OLD.dispatch, [this, "GameController.onMapaFecharClick", bt]);
         }
     }
 
     public function show():void {
-        TweenMax.to(this,.4,{autoAlpha:1});
+        TweenMax.to(this, .4, {autoAlpha: 1});
         if (!initialized) {
-            ButtonManager_OLD.setButton('MapaCurso.btFechar',btFechar,close,.2,0x999999);
+            ButtonManager_OLD.setButton('MapaCurso.btFechar', btFechar, close, .2, 0x999999);
             initialized = true;
             loadItens();
         }
@@ -59,11 +61,24 @@ public class MapaCurso extends MovieClip {
     public function loadItens():void {
         mapaItens = [];
         mapaItensPrincipals = [];
+
         var itens:Array = StateController.gameData.telas;
         var lastTitle:String = '';
         var lastItemPrincipal:MapaItemPrincipal = null;
+
+        lastTitle = itens[i]['titulo'];
+        for (var k:int = 0; k < itens.length; k++) {
+            var object2:Object = itens[i];
+            if (lastTitle != object2.titulo) {
+                multiplesTitles = true;
+            }
+        }
+
+        lastTitle = '';
+
         for (var i:int = 0; i < itens.length; i++) {
             var object:Object = itens[i];
+
             if (object.titulo != lastTitle) {
                 lastTitle = object.titulo;
                 var ip:MapaItemPrincipal = new MapaItemPrincipal();
@@ -72,27 +87,31 @@ public class MapaCurso extends MovieClip {
                 ip.config(object.titulo, i, refreshIrens);
                 mapaItensPrincipals.push(ip);
             }
+
             var mapItem:MapaItem = new MapaItem();
-            mapItem.texto.htmlText = 'Pág:<b>'+ (i+1).toString()+'</b> - '+object.titulo2;
+            mapItem.texto.htmlText = 'Pág:<b>' + (i + 1).toString() + '</b> - ' + object.titulo2;
             mapItem.config(i, onItemClick);
             mapItem.x = 0;
             mapaItens.push(mapItem);
             lastItemPrincipal.childs.push(mapItem);
         }
-        var skrllPArams:ScrollParameter = new ScrollParameter();
-        skrllPArams.relativeSizeV = false;
-        skrllPArams.repositionAll = false;
-        skrllPArams.trackerDefaultV = 31;
-        skrllPArams.relativeTrackers = false;
-        scroller = new Scroll(Main.mainStage, content, container, skrllPArams);
+
+        var sp:ScrollParameters = new ScrollParameters();
+        sp.relativeTrackerV = false;
+        sp.repositionAll = false;
+        sp.paddingV = 0;
+        sp.relativeTrackers = false;
+
+        scroller = new Scroll(content, container, sp);
         scroller.setScrollTracks(track, tracker);
-        scroller.initialize();
-        this.addChild(scroller);
+        scroller.initialize(Main.mainStage);
+
+        //this.addChild();
     }
 
     public function onItemClick(bt:MovieClip):void {
         close();
-        TweenMax.delayedCall(.4,EventManager.dispatch,[this, "GameController.onItemClick",bt]);
+        TweenMax.delayedCall(.4, EventManager_OLD.dispatch, [this, "GameController.onItemClick", bt]);
     }
 
     public function refreshIrens(bt:MovieClip = null):void {
@@ -108,6 +127,9 @@ public class MapaCurso extends MovieClip {
         }
         for (var i:int = 0; i < mapaItensPrincipals.length; i++) {
             var mapaItemPrincipal:MapaItemPrincipal = mapaItensPrincipals[i];
+            if(!multiplesTitles){
+            //    mapaItemPrincipal.status = MapaItemPrincipal.ABERTO
+            }
             mapaItemPrincipal.y = content.numChildren * 34;
             content.addChild(mapaItemPrincipal);
             if (mapaItemPrincipal.status == MapaItemPrincipal.ABERTO) {
@@ -119,7 +141,7 @@ public class MapaCurso extends MovieClip {
             }
 
         }
-        scroller.updateSize();
+        scroller.update();
     }
 
 }

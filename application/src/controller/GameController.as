@@ -6,6 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 package controller {
+import com.greensock.TweenMax;
+import com.greensock.easing.Linear;
 import com.greensock.events.LoaderEvent;
 import com.greensock.loading.LoaderMax;
 
@@ -15,14 +17,18 @@ import flash.display.DisplayObject;
 import flash.display.MovieClip;
 import flash.events.Event;
 import flash.events.KeyboardEvent;
+import flash.media.SoundMixer;
+import flash.media.SoundTransform;
 import flash.net.FileReference;
 
 import managers.AssetsManager;
-import managers.EventManager;
+
 import managers.LipSyncManager;
-import managers.TimeTickerManager;
+
 import managers.buttons.ButtonManager_OLD;
 import managers.soundalize.SoundManager;
+import managers.time.TimeTickerManager_OLD;
+import managers.tk.EventManager_OLD;
 
 import model.HudVo;
 
@@ -52,7 +58,7 @@ public class GameController {
     public static var hudController:HudController;
     public static var popUpController:PopUpController;
 
-    public static var ticker:TimeTickerManager;
+
     public static var hud:Hud;
 
     public static var currentContent:MovieClip;
@@ -71,12 +77,12 @@ public class GameController {
     public static var isMute:Boolean = false;
 
     public function GameController(mapLayer:MovieClip, hudLayer:MovieClip, popupLayer:MovieClip) {
-        ticker = new TimeTickerManager();
-        ticker.timerStart();
+
         mapController = new MapController(mapLayer);
         hudController = new HudController(hudLayer);
         popUpController = new PopUpController(popupLayer);
         Main.mainStage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
+
         LipSyncManager.delay=2;
     }
 
@@ -91,8 +97,8 @@ public class GameController {
         hud.showHud();
         PreloaderManager.setVisible(false);
 
-        EventManager.addListener("GameController.onItemClick", "GameController.onItemClick", onMapaCursoClick);
-        EventManager.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
+        EventManager_OLD.addListener("GameController.onItemClick", "GameController.onItemClick", onMapaCursoClick);
+        EventManager_OLD.addListener("GameController.onMapaFecharClick", "GameController.onMapaFecharClick", onMapaFecharClick);
         // StateController.save.ultimaTela=2;
         // StateController.save.telaAtual=7;
         PreloaderManager.setTextLabel('Aguarde, carregando nova página.');
@@ -152,7 +158,7 @@ public class GameController {
 
     public function clickHome():void {
         forcePause();
-        EventManager.dispatch(this, "PopUpController.showMapa");
+        EventManager_OLD.dispatch(this, "PopUpController.showMapa");
     }
 
     public function onClickQuestion(option:Boolean):void {
@@ -167,6 +173,7 @@ public class GameController {
 
     public function clickSound(enable:Boolean):void {
         enable ? SoundManager.unmuteAll() : SoundManager.muteAll();
+        SoundMixer.soundTransform = new SoundTransform(enable?1:0);
         isMute = !enable;
         trace(isMute)
     }
@@ -191,7 +198,7 @@ public class GameController {
         startPlay();
     }
 
-    public function clickNext():void {
+    public static   function clickNext():void {
         trace(status)
         switch (status) {
             case PLAYING_PAUSE:
@@ -269,7 +276,7 @@ public class GameController {
         }
     }
 
-    private function forceRemoveContent():void {
+    private  static function forceRemoveContent():void {
         stopLipSync();
         stopYoutubeVideo();
         clearListenertnsContent();
@@ -280,11 +287,12 @@ public class GameController {
                 MovieClip(_do).stop();
             }
         }
+        SoundMixer.stopAll();
         currentContent = null;
         status = EMPTY;
     }
 
-    private function walkToNextStep():void {
+    private  static function walkToNextStep():void {
         StateController.save.telaAtual++;
 
         if (StateController.qtyTelas == StateController.save.telaAtual)   StateController.save.telaAtual--;
@@ -297,7 +305,28 @@ public class GameController {
 
     }
 
-    public function startPlay():void {
+    public static function  startPlay():void {
+
+        if(StateController.hudSkin!=''){
+            PreloaderManager.loadingMovie.gotoAndStop(StateController.hudSkin);
+         /*   switch({
+                case 'visao':
+                case 'construindo':
+                case 'foco':
+                case 'visao':
+                case 'paqueta':
+
+                    break;
+                case 'lillys':
+                case 'dumond':
+                case 'capodarte':
+                case 'ortope':
+                case 'atelier':
+                default:
+
+                    break;
+            }     */
+        }
         PreloaderManager.setVisible(true);
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
             AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, null)
@@ -315,8 +344,11 @@ public class GameController {
         }
     }
 
-    public function doPlay(event:LoaderEvent = null):void {
+    public static function doPlay(event:LoaderEvent = null):void {
         hud.refresh(StateController.hudSkin)
+
+
+
         PreloaderManager.setVisible(false);
         currentContent = LoaderMax.getContent(StateController.telaAtual).rawContent["content"];
         hud.content.addChild(currentContent);
@@ -331,7 +363,7 @@ public class GameController {
 
     }
 
-    private static function clearListenertnsContent():void {
+    public static function clearListenertnsContent():void {
         for (var i:int = 0; i < btnsOnContent.length; i++) {
             var key:String = btnsOnContent[i];
             ButtonManager_OLD.removeButton(key);
@@ -371,7 +403,7 @@ public class GameController {
         status = PLAYING_PAUSE;
         if (currentContent != null)
             currentContent.stop();
-
+        TweenMax.to(hud.btnNext, 0.3, {glowFilter: {color: 0xFFFF00, alpha: 1, blurX: 10, blurY: 10, strength: 5, ease: Linear.easeInOut}});
         ButtonManager_OLD.addOverEffect(hud.btnNext);
     }
 
@@ -410,7 +442,16 @@ public class GameController {
         p.addPage();
         var cdet:Certificado= new Certificado();
         //Main.instance.addChild(cdet)
-        cdet.nome.text= StateController.scorm.cmi.core.student_name;
+
+       var  nomeList:Array= StateController.scorm.cmi.core.student_name.split(",");
+        var nome:String=''
+        if(nomeList.length>1)                                                         {
+            nome =  nomeList[1]+ ' '+ nomeList[0];
+        }  else{
+            nome=  nomeList[0];
+        }
+
+        cdet.nome.text= nome;
         p.addImage( cdet , new Resize(Mode.RESIZE_PAGE,Position.CENTERED));
         var file = new FileReference();
         file.save(p.save( Method.LOCAL ), 'Certificado.pdf');
@@ -432,6 +473,8 @@ public class GameController {
             StateController.save.ultimaTela=StateController.qtyTelas;
         }
     }
+
+
 }
 }
 
