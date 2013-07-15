@@ -2,162 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc7fbf4-0801-439a-8e96-a060efc96b80" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\downloads\Guia_EAD.pdf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M00_T03  - F3.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M00_T03 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M00_T03 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M00_T03 - F4.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T01 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T02 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T03 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T03 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T03 - F3.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T04 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T05 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T06 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T07 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T07 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T07 - F3.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M01_T07 - F4.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T01 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T01 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T02 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T03 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T03 - F1a.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T03 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T04 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T04 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T05 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T06 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T08 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T08 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T10 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T13 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T13 - F1a.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T13 - F3.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T13 - F4.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T15 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M02_T15 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T01 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T02 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T03 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T03 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T04 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T04 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T07 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T08 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M03_T09 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T01 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T01 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T02 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T02 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T05 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T06 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T07 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T07 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T08 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T10 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T10 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T11 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T12 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T13 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T14 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T15 - F1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T15 - F2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T15 - F3.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\falas\GM50001_M04_T15 - F4.mp3" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\GM50011_C1.3_M01_T05.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\GM50011_C1.3_M01_T25.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M00_T01.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M00_T02.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M00_T03.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T01.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T02.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T03.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T04.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T05.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T06.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T07.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M01_T08.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T01.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T02.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T03.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T04.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T05.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T06.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T07.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T08.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T09.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T10.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T11.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T12.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T13.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T14.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T15.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M02_T16.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T01.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T02.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T03.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T04.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T05.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T06.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T07.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T08.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T09.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M03_T10.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T01.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T02.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T03.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T04.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T05.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T06.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T07.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T08.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T09.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T10.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T11.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T12.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T13.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T14.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T15.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T16.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T17.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\scoGame\telas\paqueta_GM50001_M04_T18.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\apiwrapper.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\auxfn.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\classyJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\queryobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\scofunctions.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\DESENVOLVIMENTO\projetos_GIT\SCORMSkeleton\application\bin\shared\swfobject_modified.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" afterPath="$PROJECT_DIR$/application/fla/CustomPreloader.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" afterPath="$PROJECT_DIR$/application/libs/SCORMUtils.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/SWC.swc" afterPath="$PROJECT_DIR$/application/libs/SWC.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/Utils.swc" afterPath="$PROJECT_DIR$/application/libs/Utils.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/hud.fla" afterPath="$PROJECT_DIR$/application/fla/hud.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/hud.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/fla/mapaCurso.fla" afterPath="$PROJECT_DIR$/application/fla/mapaCurso.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/assets/mapaCurso.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/preloader.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/GameController.as" afterPath="$PROJECT_DIR$/application/src/controller/GameController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/Main.as" afterPath="$PROJECT_DIR$/application/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" afterPath="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/PopUpController.as" afterPath="$PROJECT_DIR$/application/src/controller/PopUpController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/controller/StateController.as" afterPath="$PROJECT_DIR$/application/src/controller/StateController.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameConfig.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameConfig.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" afterPath="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/index.php" afterPath="$PROJECT_DIR$/application/bin/scoGame/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bin/scoGame/main.html" afterPath="$PROJECT_DIR$/application/bin/scoGame/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCORMSkeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1371765122917" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1373513551480" ignored="false" />
     <file path="/fragment.js2" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1370026395358" ignored="false" />
     <file path="/Main.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1369763943491" ignored="false" />
     <file path="/IndexBone.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360518354215" ignored="false" />
@@ -180,7 +31,7 @@
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/libs/SCORMUtils.swc!/catalog.xml" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1367455930468" ignored="false" />
     <file path="$PROJECT_DIR$/../filiperp_project_skeleton/GamePlataform/src/controller/GameController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362786879892" ignored="false" />
     <file path="/ControleTelaVo.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360551056952" ignored="false" />
-    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1370207750488" ignored="false" />
+    <file path="/StateController.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1373518606797" ignored="false" />
     <file path="/_gameData.txt" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1364454723233" ignored="false" />
     <file path="/Client.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1362583570306" ignored="false" />
     <file path="/TODOs.as" changelist="6cc7fbf4-0801-439a-8e96-a060efc96b80" time="1360553345350" ignored="false" />
@@ -451,6 +302,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -487,7 +339,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -497,10 +348,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameController.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameController.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="7" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.63461536">
+            <state line="95" column="24" selection-start="2745" selection-end="2748" vertical-scroll-proportion="133.28">
               <folding />
             </state>
           </provider>
@@ -515,11 +366,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateController.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StateController.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="41" selection-start="5669" selection-end="5669" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="100" column="50" selection-start="4308" selection-end="4308" vertical-scroll-proportion="0.64496315">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#174#202#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -558,17 +412,17 @@
         <option value="$PROJECT_DIR$/application/src/Main.as" />
         <option value="$PROJECT_DIR$/application/bin/scoGame/data/_gameData.txt" />
         <option value="$PROJECT_DIR$/application/src/view/mapaCurso/MapaCurso.as" />
-        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
         <option value="$PROJECT_DIR$/application/src/controller/GameController.as" />
+        <option value="$PROJECT_DIR$/application/src/controller/StateController.as" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-1688" />
+    <option name="y" value="22" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -615,7 +469,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -754,6 +607,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -771,11 +625,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -916,13 +770,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -942,6 +789,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -1119,42 +973,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-1688" y="22" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30573952" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23212379" sideWeight="0.7277904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26621786" sideWeight="0.7289294" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30523917" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27107063" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32488987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27220955" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1254,11 +1108,6 @@
         <state line="70" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.50729334" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/application/libs/Utils.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3265" column="13" selection-start="153106" selection-end="153106" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/PopUpController.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="24" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
@@ -1313,13 +1162,6 @@
         <state line="108" column="130" selection-start="10332" selection-end="10332" vertical-scroll-proportion="0.2917981" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="7" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.63461536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="34" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.0">
@@ -1327,10 +1169,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/controller/GameController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="24" selection-start="2745" selection-end="2748" vertical-scroll-proportion="133.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/application/libs/Utils.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1425" column="13" selection-start="70803" selection-end="70803" vertical-scroll-proportion="0.3327787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/controller/StateController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="41" selection-start="5669" selection-end="5669" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="100" column="50" selection-start="4308" selection-end="4308" vertical-scroll-proportion="0.64496315">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#174#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

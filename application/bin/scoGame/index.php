@@ -37,7 +37,7 @@
 	</head>
 	<body background="img/bg.png">
 		<div id="main2"  style="width:100%;">
-		<small><a href= "telaLogin.php"> Sair </a> </small>			
+				
 			<div id="container" >	
 				<div id="flashContent">
 					<a href="http://www.adobe.com/go/getflash">
