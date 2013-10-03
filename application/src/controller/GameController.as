@@ -328,8 +328,10 @@ public class GameController {
             }     */
         }
         PreloaderManager.setVisible(true);
+
         if (LoaderMax.getContent(StateController.telaAtual) == null) {
-            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, null)
+            PreloaderManager.setTextLabel("aguarde...");
+            AssetsManager.loadSWFAsset('telas/' + StateController.telaAtual + '.swf', {name: StateController.telaAtual, onComplete: doPlay}, updatePreloaderLabel)
         } else {
             if (LoaderMax.getContent(StateController.telaAtual) != null) {
                 if (LoaderMax.getContent(StateController.telaAtual).rawContent["content"] != null) {
@@ -342,6 +344,10 @@ public class GameController {
 
             doPlay();
         }
+    }
+    private static function updatePreloaderLabel(percent:Number):void {
+        var p:String = (percent * 100).toFixed(2) + "%";
+        PreloaderManager.setTextLabel("carregado: " + p);
     }
 
     public static function doPlay(event:LoaderEvent = null):void {
